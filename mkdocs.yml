@@ -1,0 +1,126 @@
+### site metadata ###
+
+site_name: Fahmi's Project Documentations
+site_description : Project tech stacks and description detailed by fahmi wahyu wiradika 
+
+copyright: Copyright &copy; 2023 - 2024 Fahmi Wahyu Wiradika. All Rights Reserved.
+
+
+### Site Settings ###
+#theme : readthedocs --- Optional to use if we don't like to use material theme
+theme: 
+  name: material
+#  logo: img/logo-edmi.png
+  features:
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+    - navigation.sections
+    - navigation.tracking
+    - navigation.path
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.footer
+    - tabs: true
+    ### If page want to be divided to 3 parts then uncomment toc.follow, either using toc.integrate
+#    - toc.follow 
+    - toc.integrate 
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+      primary: teal
+      accent: purple
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to loght mode
+      primary: teal
+      accent: lime
+  font: 
+    text: Roboto
+    code: Roboto Mono
+
+#extra_css:
+#  - stylesheets/extra.css
+
+extra:
+  social:
+  - icon: fontawesome/brands/github-alt
+    link: https://github.com/fahmiwazu
+  - icon: simple/postman
+    link: https://www.postman.com/fahmi-wiradika
+  - icon: fontawesome/brands/linkedin
+    link: https://www.linkedin.com/in/fahmiwiradika96/
+  - icon: fontawesome/brands/instagram
+    link: https://www.instagram.com/fahmiwazu
+
+### Navigation Settings ###
+### Please to uncomment the document that ready only !!!! ###
+nav:
+  - Home : index.md
+  - Introduction : 
+    - About : Introduction/About-fahmi.md
+    - Certification: Introduction/Certifiaction-fahmi.md
+    - Experience : Introduction/Experience-fahmi.md
+  - Project Portfolio: 
+#    - EDMI Limited :
+#      - Desktop Applications:
+#      - .NET Scrip Automation:
+#    - freeCodeCamp : 
+#      - Simple CRUD App: 
+#      - Back End Development and APIs: 
+#        - Project 1:
+#        - Project 2:
+#        - Project 3:
+#        - Project 4:
+#        - Project 5:
+#      - Relational Database :  
+#        - Project 1:
+#        - Project 2:
+#        - Project 3:
+#        - Project 4:
+#        - Project 5:
+#    - Katalon : 
+#      - API Automation:
+#      - Web UI Automation: 
+#    - Postman :  
+#      - Valentino's API:
+    - Technical Test : 
+      - Hypefast: Projects/Web-UI-Automatio-with-Katalon.md
+
+
+# Extensions  
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.snippets
+  - attr_list
+  - admonition
+  - footnotes
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.superfences: 
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+plugins:
+  - search
+  - autorefs
+  - git-revision-date-localized

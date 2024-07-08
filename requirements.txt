@@ -1,0 +1,11 @@
+## Required Python Dependencies ##
+
+# pip install -r requirements.txt
+mkdocs
+mkdocs-autorefs
+mkdocs-material
+mkdocs-git-revision-date-localized-plugin
+pymdown-extensions
+Pygments
+
+# Last Edited by Fahmi Wahyi Wiradika
