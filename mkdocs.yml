@@ -119,5 +119,5 @@ markdown_extensions:
 
 plugins:
   - search
-#  - autorefs
+  - autorefs
   - git-revision-date-localized
