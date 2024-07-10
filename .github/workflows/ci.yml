@@ -25,11 +25,5 @@ jobs:
           path: .cache
           restore-keys: |
             mkdocs-material-
-      - run: pip install mkdocs
-      - run: pip install mkdocs-material 
-      - run: pip install mkdocs-autorefs
-      - run: pip install mkdocs-material
-      - run: pip install mkdocs-git-revision-date-localized-plugin
-      - run: pip install pymdown-extensions
-      - run: pip install Pygments
+      - run: pip install -r rerequirements.txt
       - run: mkdocs gh-deploy --force

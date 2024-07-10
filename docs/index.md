@@ -1,17 +1,14 @@
-# Welcome to MkDocs
+# Welcome to Fahmi's Project Library
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## Greeting's People
+Welcome to Fahmi's Project Library, on this website you will find all project finished <br> and documented by Fahmi, feel free to explore and reaching out to him if you have <br>some question to ask
 
-## Commands
+## Introduction
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## Professional Project
 
-## Project layout
+## Open Source Project
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## Personal Project
+
+## Academic Project

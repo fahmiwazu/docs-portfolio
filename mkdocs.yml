@@ -1,47 +1,50 @@
 ### site metadata ###
 
-site_name: Fahmi's Project Documentations
+site_name: Fahmi's Project Library
 site_description : Project tech stacks and description detailed by fahmi wahyu wiradika 
 
-copyright: Copyright &copy; 2023 - 2024 Fahmi Wahyu Wiradika. All Rights Reserved.
-
+copyright: |
+  Copyright &copy; 2024 <a href="https://github.com/fahmiwazu/docs-portfolio?tab=MIT-1-ov-file#" target="_blank" rel="noopener"> Fahmi Wahyu Wiradika</a>
 
 ### Site Settings ###
 #theme : readthedocs --- Optional to use if we don't like to use material theme
 theme: 
   name: material
-#  logo: img/logo-edmi.png
+  icon:
+    logo: simple/testinglibrary
   features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
     - search.suggest
     - search.highlight
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
-    - navigation.sections
     - navigation.tracking
     - navigation.path
-    - navigation.tabs
     - navigation.tabs.sticky
-    - navigation.top
     - navigation.footer
     - tabs: true
     ### If page want to be divided to 3 parts then uncomment toc.follow, either using toc.integrate
-#    - toc.follow 
-    - toc.integrate 
+    # - toc.integrate 
+    - toc.follow 
   language: en
   palette:
+  # Palette toggle for light mode
     - scheme: default
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
       primary: teal
-      accent: purple
+      accent: indigo
+  # Palette toggle for dark mode    
     - scheme: slate
       toggle:
         icon: material/toggle-switch
-        name: Switch to loght mode
-      primary: teal
-      accent: lime
+        name: Switch to light mode
+      primary: black
+      accent: deep orange
   font: 
     text: Roboto
     code: Roboto Mono
@@ -59,41 +62,45 @@ extra:
     link: https://www.linkedin.com/in/fahmiwiradika96/
   - icon: fontawesome/brands/instagram
     link: https://www.instagram.com/fahmiwazu
+  # alternate:
+  #   - name: English
+  #     link: /en/ 
+  #     lang: en
+  #   - name: Indonesia
+  #     link: /id/
+  #     lang: id
 
 ### Navigation Settings ###
 ### Please to uncomment the document that ready only !!!! ###
 nav:
   - Home : index.md
   - Introduction : 
-    - About : Introduction/About-fahmi.md
-    - Certification: Introduction/Certifiaction-fahmi.md
+    - About Fahmi: Introduction/About-fahmi.md
     - Experience : Introduction/Experience-fahmi.md
-  - Project Portfolio: 
-#    - EDMI Limited :
-#      - Desktop Applications:
-#      - .NET Scrip Automation:
-#    - freeCodeCamp : 
-#      - Simple CRUD App: 
-#      - Back End Development and APIs: 
-#        - Project 1:
-#        - Project 2:
-#        - Project 3:
-#        - Project 4:
-#        - Project 5:
-#      - Relational Database :  
-#        - Project 1:
-#        - Project 2:
-#        - Project 3:
-#        - Project 4:
-#        - Project 5:
-#    - Katalon : 
-#      - API Automation:
-#      - Web UI Automation: 
-#    - Postman :  
-#      - Valentino's API:
-    - Technical Test : 
-      - Hypefast: Projects/Web-UI-Automatio-with-Katalon.md
-
+    - Certification: Introduction/Certification-fahmi.md
+  - Professional Project: 
+    - Projects/Professional/index.md
+    - EDMI Limited:
+      - Desktop Automation Tools: Projects/Professional/desktop-app.md
+      - .NET Automation Script: Projects/Professional/dotnet-app.md
+  - Open Source Project :
+    - Projects/Open-Source/index.md
+    - freeCodeCamp:
+      - Back End Development and APIs: Projects/Open-Source/fcc-bedaa.md
+      - Relational Database : Projects/Open-Source/fcc-rdb.md
+      - Quality Assurance: Projects/Open-Source/fcc-qa.md
+    - Katalon : 
+      - API Automation: Projects/Open-Source/katalon-api.md
+      - Web UI Automation: Projects/Open-Source/katalon-web-ui.md
+    - Postman :  
+      - API Test Automation: Projects/Open-Source/postman-api-auto.md
+  - Personal Project : 
+    - 1to15 Puzzle: Projects/Personal/1to50.md
+    - Car Rental: Projects/Personal/car-rental.md
+    - CRUD App: Projects/Personal/simple-be-app.md
+    - Melaka : Projects/Personal/melaka.md
+  - Academic Project:
+    - Bachelor Degree: Projects/Academic/final-prj.md
 
 # Extensions  
 markdown_extensions:
