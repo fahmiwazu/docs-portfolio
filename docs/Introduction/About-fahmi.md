@@ -22,7 +22,7 @@ Fahmi's tech stack includes programming languages, version control systems (VCS)
 
 <div class="grid cards" markdown>
 
-- :fontawesome-solid-code: Programming Languages
+- :fontawesome-solid-code: Programming Language
 
     ---
     - :material-language-csharp: : C#/.NET
@@ -31,7 +31,7 @@ Fahmi's tech stack includes programming languages, version control systems (VCS)
     - :material-language-python: : Python
     - :material-language-java: : Java
 
-- :material-tools: Development & Test Tools
+- :material-tools: Development & Testing Tool
 
     ---
     - :material-microsoft-visual-studio-code: : VS Code / VS Studio
@@ -61,7 +61,7 @@ Fahmi's tech stack includes programming languages, version control systems (VCS)
     - :simple-jira: : JIRA
     - :simple-confluence: : Confluence
 
-- :octicons-workflow-16: CI/CD
+- :octicons-workflow-16: CI/CD Workflow
 
     ---
     - :simple-githubactions: : GitHub Action
