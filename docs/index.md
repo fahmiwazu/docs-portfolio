@@ -1,14 +1,44 @@
 # Welcome to Fahmi's Project Library
 
-## Greeting's People
-Welcome to Fahmi's Project Library, on this website you will find all project finished <br> and documented by Fahmi, feel free to explore and reaching out to him if you have <br>some question to ask
+## :material-human-greeting-variant: Greeting's People
+Welcome to Fahmi's Project Library, where you can explore a comprehensive collection of all projects completed and meticulously documented by Fahmi. Feel free to delve into each project and don't hesitate to reach out to him via his social accounts if you have any questions or would like further information. Happy exploring!
 
-## Introduction
+## :material-information: Introduction
 
-## Professional Project
+If you are seeking comprehensive insights into Fahmi as an individual, including his contact information, professional career spanning software development and testing, and the certifications he has diligently earned, you will find detailed information here.
 
-## Open Source Project
+[Let's get started :material-arrow-right:](Introduction/About-fahmi.md){ .md-button }
 
-## Personal Project
+## :material-file-document-multiple: Documentation Chategories
 
-## Academic Project
+For those interested in exploring Fahmi's project documentation across categories such as Professional, Open-source, Personal, and Academic Projects, this overview offers a concise introduction to his varied and significant contributions in each field.
+
+<div class="grid cards" markdown>
+
+- [:material-professional-hexagon: __Professional Project__](Projects/Professional/index.md) (1)
+    { .annotate }
+
+    1. Explore Fahmi's notable contributions to automation tools and script automation, specifically designed to enhance the QA process throughout his professional career, right here for detailed insights.
+    
+
+- [:material-open-source-initiative: __Open-source Project__](Projects/Open-Source/index.md) (1)
+    { .annotate }
+
+    1. Discover more about Fahmi's open-source project developed for certification purposes aimed at improving the QA process for his next professional career right here, where detailed information awaits.
+
+- [:material-account: __Personal Project__](Projects/Personal/1to50.md) (1)
+    { .annotate }
+
+    1. For those curious about Fahmi's personal project focused on enhancing skills acquired from online courses and open-source certification programs, detailed information and insights are available here.
+
+- [:material-school: __Academic Project__](Projects/Academic/final-prj.md) (1)
+    { .annotate }
+
+    1. Explore Fahmi's academic project encompassing embedded systems, digital signal processing, machine learning, and artificial neural networks, which culminated in his Bachelor of Applied Engineering degree. Detailed information on this innovative project is available here.
+
+
+
+
+</div>
+
+

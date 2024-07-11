@@ -1,0 +1,70 @@
+# Fahmi Wahyu Wiradika
+
+## Summary
+A graduate student from Electronic Engineering Polytechnic Institute of Surabaya (EEPIS) in 2019, I am interested and have a Diploma Thesis on Smart Meters with Artificial intelligence (AI) Embedded Devices. 4 years of experience in the Research & Development team as a Tester Engineer & Scrum Master to build Embedded Systems, Desktop & Web Applications.
+
+## Contact Information
+If you're looking to contact Fahmi regarding his personal or project source code, you can reach him on this social platform or through specific services.
+
+<div class="grid cards" markdown>
+
+- :simple-linkedin: : [fahmiwiradika96](https://www.linkedin.com/in/fahmiwiradika96/)
+- :simple-gmail: : fahmi.wiradika96@gmail.com
+- :simple-instagram: : [fahmiwazu](https://www.instagram.com/fahmiwazu/)
+- :simple-whatsapp: : +62 85 281 791 212 
+- :simple-github: : [fahmiwazu](https://github.com/fahmiwazu)
+- :simple-postman: : [fahmi-wiradika](https://www.postman.com/fahmi-wiradika)
+
+</div>
+
+## Tech Stack
+Fahmi's tech stack includes programming languages, version control systems (VCS), relational database management systems (RDBMS), and a variety of tools essential for his projects and development workflows.
+
+<div class="grid cards" markdown>
+
+- :fontawesome-solid-code: Programming Languages
+
+    ---
+    - :material-language-csharp: : C#/.NET
+    - :material-language-markdown: : Markdown
+    - :material-language-javascript: : JavaScript
+    - :material-language-python: : Python
+    - :material-language-java: : Java
+
+- :material-tools: Development & Test Tools
+
+    ---
+    - :material-microsoft-visual-studio-code: : VS Code / VS Studio
+    - :simple-postman: : Postman
+    - :simple-insomnia: : Insomnia
+    - :simple-nodedotjs: : Node.js
+    - :simple-selenium: : Selenium webdriver
+
+- :material-git: Versioning Control System
+
+    ---
+    - :simple-gitlab: : GitLab
+    - :simple-github: : GitHub
+    - :simple-bitbucket: : Bitbucket
+
+- :material-database: Database Management System
+
+    ---
+    - :simple-postgresql: : PostgreSQL
+    - :simple-mysql: : MySQL 
+    - :simple-mongodb: : MongoDB
+
+- :material-file-document-alert: Issue Tracking and Documenation
+
+    ---
+    - :simple-materialformkdocs: : MkDocs
+    - :simple-jira: : JIRA
+    - :simple-confluence: : Confluence
+
+- :octicons-workflow-16: CI/CD
+
+    ---
+    - :simple-githubactions: : GitHub Action
+    - :simple-teamcity: : TeamCity
+
+</div>
