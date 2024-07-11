@@ -79,11 +79,6 @@ nav:
     - About Fahmi: Introduction/About-fahmi.md
     - Experience : Introduction/Experience-fahmi.md
     - Certification: Introduction/Certification-fahmi.md
-  - Professional Project: 
-    - Projects/Professional/index.md
-    - EDMI Limited:
-      - Desktop Automation Tools: Projects/Professional/desktop-app.md
-      - .NET Automation Script: Projects/Professional/dotnet-app.md
   - Open Source Project :
     - Projects/Open-Source/index.md
     - freeCodeCamp:
@@ -100,8 +95,11 @@ nav:
     - Car Rental: Projects/Personal/car-rental.md
     - CRUD App: Projects/Personal/simple-be-app.md
     - Melaka : Projects/Personal/melaka.md
+  - Professional Project: 
+      - Desktop Automation Tools: Projects/Professional/desktop-app.md
+      - .NET Automation Script: Projects/Professional/dotnet-app.md
   - Academic Project:
-    - Bachelor Degree: Projects/Academic/final-prj.md
+    - Smart Metering Systems: Projects/Academic/final-prj.md
 
 # Extensions  
 markdown_extensions:
