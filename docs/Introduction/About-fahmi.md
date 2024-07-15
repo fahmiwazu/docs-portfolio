@@ -10,8 +10,6 @@ If you're looking to contact Fahmi regarding his personal or project source code
 
 - :simple-linkedin: : [fahmiwiradika96](https://www.linkedin.com/in/fahmiwiradika96/)
 - :simple-gmail: : fahmi.wiradika96@gmail.com
-- :simple-instagram: : [fahmiwazu](https://www.instagram.com/fahmiwazu/)
-- :simple-whatsapp: : +62 85 281 791 212 
 - :simple-github: : [fahmiwazu](https://github.com/fahmiwazu)
 - :simple-postman: : [fahmi-wiradika](https://www.postman.com/fahmi-wiradika)
 
@@ -75,18 +73,21 @@ Fahmi's tech stack includes programming languages, version control systems (VCS)
 
 </div>
 
+
 ## Interest 
 Fahmi's diverse interests, reflecting both his passion for exploration and his insightful commitment to social engagement.
 
 <div class="grid cards" markdown>
 
+- :earth_asia: : History
+- :checkered_flag: : MotoSport
 - :basketball: : Basketball
 - :soccer: : Football
-- :checkered_flag: : MotoSport
-- :earth_asia: : History
-- :fontawesome-solid-gears: : Technology
-- :material-bike: : Cycling
-- :octicons-code-square-16: : Coding
+- :musical_note: : Music
+- :movie_camera: : Movie
+- :cooking: : Cooking
+- :fork_and_knife: : Culinary
+- :bike: : Cycling
 - :video_game: : Gaming
 
 </div>
