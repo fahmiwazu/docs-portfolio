@@ -10,8 +10,6 @@ If you're looking to contact Fahmi regarding his personal or project source code
 
 - :simple-linkedin: : [fahmiwiradika96](https://www.linkedin.com/in/fahmiwiradika96/)
 - :simple-gmail: : fahmi.wiradika96@gmail.com
-- :simple-instagram: : [fahmiwazu](https://www.instagram.com/fahmiwazu/)
-- :simple-whatsapp: : +62 85 281 791 212 
 - :simple-github: : [fahmiwazu](https://github.com/fahmiwazu)
 - :simple-postman: : [fahmi-wiradika](https://www.postman.com/fahmi-wiradika)
 
@@ -26,7 +24,6 @@ Fahmi's tech stack includes programming languages, version control systems (VCS)
 
     ---
     - :material-language-csharp: : C#/.NET
-    - :material-language-markdown: : Markdown
     - :material-language-javascript: : JavaScript
     - :material-language-python: : Python
     - :material-language-java: : Java
@@ -34,7 +31,6 @@ Fahmi's tech stack includes programming languages, version control systems (VCS)
 - :material-tools: Development & Testing Tool
 
     ---
-    - :material-microsoft-visual-studio-code: : VS Code / VS Studio
     - :simple-postman: : Postman
     - :simple-insomnia: : Insomnia
     - :simple-nodedotjs: : Node.js
@@ -54,6 +50,14 @@ Fahmi's tech stack includes programming languages, version control systems (VCS)
     - :simple-mysql: : MySQL 
     - :simple-mongodb: : MongoDB
 
+- :material-text-box-edit: Text Editor
+
+    ---
+    - :material-microsoft-visual-studio: : Visual Studio 
+    - :material-microsoft-visual-studio-code: : Visual Code
+    - :simple-eclipseide: : Eclipse IDE
+    - :simple-pycharm: : PyCharm 
+
 - :material-file-document-alert: Issue Tracking and Documenation
 
     ---
@@ -68,3 +72,23 @@ Fahmi's tech stack includes programming languages, version control systems (VCS)
     - :simple-teamcity: : TeamCity
 
 </div>
+
+
+## Interest 
+Fahmi's diverse interests, reflecting both his passion for exploration and his insightful commitment to social engagement.
+
+<div class="grid cards" markdown>
+
+- :earth_asia: : History
+- :checkered_flag: : MotoSport
+- :basketball: : Basketball
+- :soccer: : Football
+- :musical_note: : Music
+- :movie_camera: : Movie
+- :cooking: : Cooking
+- :fork_and_knife: : Culinary
+- :bike: : Cycling
+- :video_game: : Gaming
+
+</div>
+
