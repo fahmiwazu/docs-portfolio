@@ -13,6 +13,7 @@ theme:
   icon:
     annotation: material/arrow-right-circle-outline
     logo: simple/testinglibrary
+    menu: simple/testinglibrary
   features:
     - navigation.tabs
     - navigation.sections
@@ -77,9 +78,8 @@ nav:
   - Introduction : 
     - About Fahmi: Introduction/About-fahmi.md
     - Experience : Introduction/Experience-fahmi.md
-    # - Certification: Introduction/Certification-fahmi.md
+    - Certification: Introduction/Certification-fahmi.md
   - Open Source Project :
-    - Projects/Open-Source/index.md
     - freeCodeCamp:
       - Back End Development and APIs: Projects/Open-Source/fcc-bedaa.md
       - Relational Database : Projects/Open-Source/fcc-rdb.md

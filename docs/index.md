@@ -15,7 +15,7 @@ For those interested in exploring Fahmi's project documentation across categorie
 
 <div class="grid cards" markdown>
 
-- [:material-open-source-initiative: __Open-source Project__](Projects/Open-Source/index.md) (1)
+- [:material-open-source-initiative: __Open-source Project__](Projects/Open-Source/fcc-bedaa.md) (1)
     { .annotate }
 
     1. Discover more about Fahmi's open-source project developed for certification purposes aimed at improving the QA process for his next professional career right here, where detailed information awaits.
@@ -41,7 +41,7 @@ For those interested in exploring Fahmi's project documentation across categorie
     - [:fontawesome-brands-node-js: Simple CRUD Backend](Projects/Personal/simple-be-app.md)
     - [:fontawesome-solid-k: Melaka Web Automation](Projects/Personal/melaka.md)
 
-- [:material-professional-hexagon: __Professional Project__](Projects/Professional/index.md) (1)
+- [:material-professional-hexagon: __Professional Project__](Projects/Professional/desktop-app.md) (1)
     { .annotate }
 
     1. Explore Fahmi's notable contributions to automation tools and script automation, specifically designed to enhance the QA process throughout his professional career, right here for detailed insights.
