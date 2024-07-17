@@ -1,10 +1,5 @@
 # About Fahmi
 
-<figure markdown="span">
-![Screenshot](img/Restored/fahmiwazu.jpg){ width="130" }
-<figcaption>Fahmi Wahyu Wiradika<br>Jakarta, 2024</figcaption>
-</figure>
-
 ## Summary
 A graduate student from Electronic Engineering Polytechnic Institute of Surabaya (EEPIS) in 2019, I am interested and have a Diploma Thesis on Smart Meters with Artificial intelligence (AI) Embedded Devices. 4 years of experience in the Research & Development team as a Tester Engineer & Scrum Master to build Embedded Systems, Desktop & Web Applications.
 

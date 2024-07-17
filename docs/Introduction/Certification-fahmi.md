@@ -13,8 +13,8 @@ freeCodeCamp is a community of people from all around the world who are learning
     !!! note ""
         === "Credentials"
             <figure markdown="span">
-            ![Screenshot](img/Restored/freeCodeCamp-Back-End-Development-and-APIs.jpg){ width="750" }
-            <figcaption>freeCodeCamp Relational Database Certificatate</figcaption>
+            ![Screenshot](img/Certificate/freeCodeCamp-Back-End-Development-and-APIs.jpg){ width="750" }
+            <figcaption>freeCodeCamp Relational Database Certificate</figcaption>
             </figure>
 
             - Credential ID: fahmi-wahyu-wiradika-bedaa
@@ -25,7 +25,7 @@ freeCodeCamp is a community of people from all around the world who are learning
             In the Back End Development and APIs Certification, you'll learn how to write back end apps with Node.js and npm. You'll also build web applications with the Express framework, and build a People Finder microservice with MongoDB and the Mongoose library.
 
             follow the link for details about certification materials<br>[freeCodeCamp - Back End Development and APIs](https://www.freecodecamp.org/learn/back-end-development-and-apis/)
-        === "Curiculum"
+        === "Curriculum"
             As part of this certification, Fahmi Wahyu Wiradika built the following projects and got all automated test suites to pass:
 
             - Timestamp Microservice
@@ -49,8 +49,8 @@ freeCodeCamp is a community of people from all around the world who are learning
     !!! note ""
         === "Credentials"
             <figure markdown="span">
-            ![Screenshot](img/Restored/freeCodeCamp-Relational-Database-Certificate.jpg){ width="750" }
-            <figcaption>freeCodeCamp Back End Development and APIs Certificatate</figcaption>
+            ![Screenshot](img/Certificate/freeCodeCamp-Relational-Database-Certificate.jpg){ width="750" }
+            <figcaption>freeCodeCamp Back End Development and APIs Certificate</figcaption>
             </figure>
 
             - Credential ID: fahmi-wahyu-wiradika-rd
@@ -65,7 +65,7 @@ freeCodeCamp is a community of people from all around the world who are learning
             Finally, you will learn Git, the version control system, an essential tool of every developer.
 
             follow the link for details about certification materials<br>[freeCodeCamp - Relational Database](https://www.freecodecamp.org/learn/relational-database/)
-        === "Curiculum"
+        === "Curriculum"
             As part of this certification, Fahmi Wahyu Wiradika built the following projects and got all automated test suites to pass:
 
             - Celestial Bodies Database
@@ -107,7 +107,7 @@ freeCodeCamp is a community of people from all around the world who are learning
             Then you'll build a chat application to learn advanced Node and Express concepts. You'll also use Pug as a template engine, Passport for authentication, and Socket.io for real-time communication between the server and connected clients.
 
             follow the link for details about certification materials<br>[freeCodeCamp - Quality Assurance](https://www.freecodecamp.org/learn/quality-assurance/)
-        === "Curiculum"
+        === "Curriculum"
             As part of this certification, Fahmi Wahyu Wiradika built the following projects and got all automated test suites to pass:
 
             - Metric-Imperial Converter
@@ -142,8 +142,8 @@ Katalon Platform is an automation testing software tool developed by Katalon, In
     !!! note ""
         === "Credentials"
             <figure markdown="span">
-            ![Screenshot](img/Restored/Katalon-Prac.jpg){ width="750" }
-            <figcaption>Katalon Practitioner Level Certificatate</figcaption>
+            ![Screenshot](img/Certificate/Katalon-Prac.jpg){ width="750" }
+            <figcaption>Katalon Practitioner Level Certificate</figcaption>
             </figure>
 
             - Credential ID: 665334772dd5a
@@ -160,7 +160,7 @@ Katalon Platform is an automation testing software tool developed by Katalon, In
             - Run test case/suite/suite collection executions: 75/75
 
 
-        === "Curiculum"
+        === "Curriculum"
             Katalon certifies the user for their understanding and hands-on experience of using the Katalon platform for test automation, including:
 
             - Creating automated test cases using different methods in Katalon Studio
@@ -183,7 +183,7 @@ Katalon Platform is an automation testing software tool developed by Katalon, In
     !!! note ""
         === "Credentials"
             <figure markdown="span">
-            ![Screenshot](img/Restored/Katalon-Pro.jpg){ width="750" }
+            ![Screenshot](img/Certificate/Katalon-Pro.jpg){ width="750" }
             <figcaption>Katalon Professional Level Certificatate</figcaption>
             </figure>
 
@@ -202,7 +202,7 @@ Katalon Platform is an automation testing software tool developed by Katalon, In
             - Run test execution in Katalon Studio with Katalon TestCloud Tunnel: 1/1
 
 
-        === "Curiculum"
+        === "Curriculum"
             Katalon certifies the user for their solid hands-on experience of using the Katalon platform’s advanced features for test automation, including:
 
             - Creating a large number of automated test cases using different methods in Katalon Studio
@@ -229,7 +229,7 @@ Katalon Platform is an automation testing software tool developed by Katalon, In
     !!! note ""
         === "Credentials"
             <figure markdown="span">
-            ![Screenshot](img/Restored/Katalon-Expert.jpg){ width="750" }
+            ![Screenshot](img/Certificate/Katalon-Expert.jpg){ width="750" }
             <figcaption>Katalon Expert Level Certificatate</figcaption>
             </figure>
 
@@ -248,7 +248,7 @@ Katalon Platform is an automation testing software tool developed by Katalon, In
             - Have test execution results in Katalon TestOps: 200/200
 
 
-        === "Curiculum"
+        === "Curriculum"
             Katalon certifies the user for their understanding and extensive hands-on experience of using the Katalon platform for test automation, including:
 
             - Creating a large number of automated test cases using different methods in Katalon Studio
@@ -283,7 +283,7 @@ Postman is the world’s leading API platform. Postman's features simplify each 
     !!! note ""
         === "Credentials"
             <figure markdown="span">
-            ![Screenshot](img/Restored/Postman-API-Testing-Automation-Certificate.jpg){ width="750" }
+            ![Screenshot](img/Certificate/Postman-API-Testing-Automation-Certificate.jpg){ width="750" }
             <figcaption>Postman API Test Automation Certificatate</figcaption>
             </figure>
 
@@ -301,7 +301,7 @@ Postman is the world’s leading API platform. Postman's features simplify each 
             - Claim your Badge
 
 
-        === "Curiculum"
+        === "Curriculum"
             The workspace also contains assignments designed to enhance your understanding of API testing with Postman. Upon completion, you'll earn the Postman badge, signifying your proficiency in API test automation.
 
             - Assignment 1: Verify response status code and the value of the property
