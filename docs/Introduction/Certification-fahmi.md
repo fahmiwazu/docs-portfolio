@@ -184,7 +184,7 @@ Katalon Platform is an automation testing software tool developed by Katalon, In
         === "Credentials"
             <figure markdown="span">
             ![Screenshot](img/Certificate/Katalon-Pro.jpg){ width="750" }
-            <figcaption>Katalon Professional Level Certificatate</figcaption>
+            <figcaption>Katalon Professional Level Certificate</figcaption>
             </figure>
 
             - Credential ID: 66548414726aa
@@ -230,7 +230,7 @@ Katalon Platform is an automation testing software tool developed by Katalon, In
         === "Credentials"
             <figure markdown="span">
             ![Screenshot](img/Certificate/Katalon-Expert.jpg){ width="750" }
-            <figcaption>Katalon Expert Level Certificatate</figcaption>
+            <figcaption>Katalon Expert Level Certificate</figcaption>
             </figure>
 
             - Credential ID: 66572752327b2
@@ -284,7 +284,7 @@ Postman is the world’s leading API platform. Postman's features simplify each 
         === "Credentials"
             <figure markdown="span">
             ![Screenshot](img/Certificate/Postman-API-Testing-Automation-Certificate.jpg){ width="750" }
-            <figcaption>Postman API Test Automation Certificatate</figcaption>
+            <figcaption>Postman API Test Automation Certificate</figcaption>
             </figure>
 
             - Credential ID: 66681f09fd693638a4001108

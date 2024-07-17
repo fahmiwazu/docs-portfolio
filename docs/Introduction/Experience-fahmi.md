@@ -162,7 +162,7 @@ Electronic Engineering Polytechnic Institute of Surabaya (EEPIS)<br><small>(Sept
 - Coursework: Automation Industry, Embedded Systems, Digital Signal Processing.
 - Thesis on “Design and build a Smart Energy Meter to identify household loads based on harmonic trace”.
 
-???+ abstract "Documentation"
+??? abstract "Documentation"
     === "Academic Activity"
         <figure markdown="span">
         ![Screenshot](img/College/Factory-Automation-Laboratory.jpg){ width="500" }
