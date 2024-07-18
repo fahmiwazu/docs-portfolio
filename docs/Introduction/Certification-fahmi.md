@@ -91,14 +91,14 @@ freeCodeCamp is a community of people from all around the world who are learning
     !!! note ""
         === "Credentials"
             <figure markdown="span">
-            <!-- ![Screenshot](img/Restored/){ width="750" } -->
+            ![Screenshot](img/Certificate/freeCodeCamp-Quality-Assurance.jpg){ width="750" }
             <figcaption>
             :material-progress-star: <br>Certificaiton in progress</figcaption>
             </figure>
 
-            - Credential ID: in progress :material-progress-star:
-            - Credential URL: in progress :material-progress-star:
-            <!-- [fahmi-wahyu-wiradika/relational-database](https://freecodecamp.org/certification/fahmi-wahyu-wiradika/relational-database-v8) -->
+            - Credential ID: fahmi-wahyu-wiradika-qa
+            - Credential URL: 
+            [fahmi-wahyu-wiradika/quality-assurance](https://www.freecodecamp.org/certification/fahmi-wahyu-wiradika/quality-assurance-v7)
         === "Source"
             As your programs or web applications become more complex, you'll want to test them to make sure that new changes don't break their original functionality.
 
@@ -113,8 +113,8 @@ freeCodeCamp is a community of people from all around the world who are learning
             - Metric-Imperial Converter
             - Issue Tracker
             - Personal Library
-            - Sudoku Solver (in progress)
-            - American British Translator (in progress)
+            - Sudoku Solver 
+            - American British Translator 
 
     ??? tip "Certification Tips" 
 
