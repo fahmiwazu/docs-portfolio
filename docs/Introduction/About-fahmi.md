@@ -27,14 +27,16 @@ Fahmi's tech stack includes programming languages, version control systems (VCS)
     - :material-language-javascript: : JavaScript
     - :material-language-python: : Python
     - :material-language-java: : Java
+    - :material-language-markdown: : Markdown
 
-- :material-tools: Development & Testing Tool
+- :material-developer-board: Integrated Development Environment
 
     ---
-    - :simple-postman: : Postman
-    - :simple-insomnia: : Insomnia
-    - :simple-nodedotjs: : Node.js
-    - :simple-selenium: : Selenium webdriver
+    - :material-microsoft-visual-studio: : Visual Studio 
+    - :material-microsoft-visual-studio-code: : Visual Code
+    - :simple-eclipseide: : Eclipse IDE
+    - :simple-intellijidea: : IntelliJ IDE
+    - :simple-pycharm: : PyCharm 
 
 - :material-git: Versioning Control System
 
@@ -50,13 +52,14 @@ Fahmi's tech stack includes programming languages, version control systems (VCS)
     - :simple-mysql: : MySQL 
     - :simple-mongodb: : MongoDB
 
-- :material-text-box-edit: Text Editor
+- :material-tools: Development & Testing Tool
 
     ---
-    - :material-microsoft-visual-studio: : Visual Studio 
-    - :material-microsoft-visual-studio-code: : Visual Code
-    - :simple-eclipseide: : Eclipse IDE
-    - :simple-pycharm: : PyCharm 
+    - :simple-postman: : Postman
+    - :simple-insomnia: : Insomnia
+    - :simple-nodedotjs: : Node.js
+    - :simple-selenium: : Selenium webdriver
+    - Katalon Studio
 
 - :material-file-document-alert: Issue Tracking and Documenation
 
