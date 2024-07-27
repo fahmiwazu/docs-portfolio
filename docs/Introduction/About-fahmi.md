@@ -34,8 +34,8 @@ Fahmi's tech stack includes programming languages, version control systems (VCS)
     ---
     - :material-microsoft-visual-studio: : Visual Studio 
     - :material-microsoft-visual-studio-code: : Visual Code
-    - :simple-eclipseide: : Eclipse IDE
-    - :simple-intellijidea: : IntelliJ IDE
+    - :simple-eclipseide: : Eclipse 
+    - :simple-intellijidea: : IntelliJ 
     - :simple-pycharm: : PyCharm 
 
 - :material-git: Versioning Control System
@@ -58,6 +58,7 @@ Fahmi's tech stack includes programming languages, version control systems (VCS)
     - :simple-postman: : Postman
     - :simple-insomnia: : Insomnia
     - :simple-nodedotjs: : Node.js
+    - :simple-chai: : Chai
     - :simple-selenium: : Selenium webdriver
     - Katalon Studio
 
