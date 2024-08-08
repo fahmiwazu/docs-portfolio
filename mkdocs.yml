@@ -81,9 +81,24 @@ nav:
     - Certification: Introduction/Certification-fahmi.md
   - Open Source Project :
     - freeCodeCamp:
-      - Back End Development and APIs: Projects/Open-Source/fcc-bedaa.md
-      - Relational Database : Projects/Open-Source/fcc-rdb.md
-      - Quality Assurance: Projects/Open-Source/fcc-qa.md
+      - Back End Development and APIs: 
+        - Timestamp Microservice: Projects/Open-Source/bedaa/project1.md
+        - Request Header Parser Microservice: Projects/Open-Source/bedaa/project2.md
+        - URL Shortener Microservice: Projects/Open-Source/bedaa/project3.md
+        - Exercise Tracer: Projects/Open-Source/bedaa/project4.md
+        - File Metadata Microservice: Projects/Open-Source/bedaa/project5.md
+      - Relational Database : 
+        - Celestial Bodies Database: Projects/Open-Source/rdb/project1.md
+        - World Cup Database: Projects/Open-Source/rdb/project2.md
+        - Salon Appointment Scheduler: Projects/Open-Source/rdb/project3.md
+        - Periodic Table Database: Projects/Open-Source/rdb/project4.md
+        - Number Guessing Game: Projects/Open-Source/rdb/project5.md
+      - Quality Assurance: 
+        - Metric-Imperial Converter: Projects/Open-Source/qa/project1.md
+        - Issue Tracker: Projects/Open-Source/qa/project2.md
+        - Personal Library: Projects/Open-Source/qa/project3.md
+        - Sudoku Solver: Projects/Open-Source/qa/project4.md
+        - American-British Translator: Projects/Open-Source/qa/project5.md
     - Katalon : 
       - API Automation: Projects/Open-Source/katalon-api.md
       - Web UI Automation: Projects/Open-Source/katalon-web-ui.md
