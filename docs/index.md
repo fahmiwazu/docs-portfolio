@@ -25,8 +25,6 @@ For those interested in exploring Fahmi's project documentation across categorie
     - [:fontawesome-brands-free-code-camp: Back End Development and APIs](Projects/Open-Source/fcc-bedaa.md)
     - [:fontawesome-brands-free-code-camp: Relational Database](Projects/Open-Source/fcc-bedaa.md)
     - [:fontawesome-brands-free-code-camp: Quality Assurance](Projects/Open-Source/fcc-bedaa.md)
-    <!-- - [:fontawesome-solid-k: Web UI Automation](Projects/Open-Source/katalon-web-ui.md)
-    - [:fontawesome-solid-k: API Automation](Projects/Open-Source/katalon-api.md) -->
     - [:simple-postman: API Test Automation](Projects/Open-Source/postman-api-auto.md)
 
 - [:material-account: __Personal Project__](Projects/Personal/1to50.md) (1)
@@ -37,9 +35,7 @@ For those interested in exploring Fahmi's project documentation across categorie
     ---
 
     - [:simple-selenium: 1to50 Puzzle Automation](Projects/Personal/1to50.md)
-    <!-- - [:simple-selenium: Car Rental Automation](Projects/Personal/car-rental.md)
-    - [:fontawesome-brands-node-js: Simple CRUD Backend](Projects/Personal/simple-be-app.md)
-    - [:fontawesome-solid-k: Melaka Web Automation](Projects/Personal/melaka.md) -->
+
 
 <!-- - [:material-professional-hexagon: __Professional Project__](Projects/Professional/desktop-app.md) (1)
     { .annotate }
@@ -59,6 +55,13 @@ For those interested in exploring Fahmi's project documentation across categorie
     ---
 
     - [:octicons-meter-16: Smart Metering Systems](Projects/Academic/final-prj.md) -->
+
+<!-- - [:fontawesome-solid-k: Web UI Automation](Projects/Open-Source/katalon-web-ui.md)
+    - [:fontawesome-solid-k: API Automation](Projects/Open-Source/katalon-api.md) -->
+
+<!-- - [:simple-selenium: Car Rental Automation](Projects/Personal/car-rental.md)
+- [:fontawesome-brands-node-js: Simple CRUD Backend](Projects/Personal/simple-be-app.md)
+- [:fontawesome-solid-k: Melaka Web Automation](Projects/Personal/melaka.md) -->
 
 
 
