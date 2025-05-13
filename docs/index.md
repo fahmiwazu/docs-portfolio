@@ -25,8 +25,8 @@ For those interested in exploring Fahmi's project documentation across categorie
     - [:fontawesome-brands-free-code-camp: Back End Development and APIs](Projects/Open-Source/fcc-bedaa.md)
     - [:fontawesome-brands-free-code-camp: Relational Database](Projects/Open-Source/fcc-bedaa.md)
     - [:fontawesome-brands-free-code-camp: Quality Assurance](Projects/Open-Source/fcc-bedaa.md)
-    - [:fontawesome-solid-k: Web UI Automation](Projects/Open-Source/katalon-web-ui.md)
-    - [:fontawesome-solid-k: API Automation](Projects/Open-Source/katalon-api.md)
+    <!-- - [:fontawesome-solid-k: Web UI Automation](Projects/Open-Source/katalon-web-ui.md)
+    - [:fontawesome-solid-k: API Automation](Projects/Open-Source/katalon-api.md) -->
     - [:simple-postman: API Test Automation](Projects/Open-Source/postman-api-auto.md)
 
 - [:material-account: __Personal Project__](Projects/Personal/1to50.md) (1)
@@ -37,11 +37,11 @@ For those interested in exploring Fahmi's project documentation across categorie
     ---
 
     - [:simple-selenium: 1to50 Puzzle Automation](Projects/Personal/1to50.md)
-    - [:simple-selenium: Car Rental Automation](Projects/Personal/car-rental.md)
+    <!-- - [:simple-selenium: Car Rental Automation](Projects/Personal/car-rental.md)
     - [:fontawesome-brands-node-js: Simple CRUD Backend](Projects/Personal/simple-be-app.md)
-    - [:fontawesome-solid-k: Melaka Web Automation](Projects/Personal/melaka.md)
+    - [:fontawesome-solid-k: Melaka Web Automation](Projects/Personal/melaka.md) -->
 
-- [:material-professional-hexagon: __Professional Project__](Projects/Professional/desktop-app.md) (1)
+<!-- - [:material-professional-hexagon: __Professional Project__](Projects/Professional/desktop-app.md) (1)
     { .annotate }
 
     1. Explore Fahmi's notable contributions to automation tools and script automation, specifically designed to enhance the QA process throughout his professional career, right here for detailed insights.
@@ -49,16 +49,16 @@ For those interested in exploring Fahmi's project documentation across categorie
     ---
 
     - [:octicons-device-desktop-24: Desktop Automation Tools](Projects/Professional/desktop-app.md)
-    - [:simple-dotnet: C#/.NET Automation Script](Projects/Professional/dotnet-app.md)
+    - [:simple-dotnet: C#/.NET Automation Script](Projects/Professional/dotnet-app.md) -->
 
-- [:material-school: __Academic Project__](Projects/Academic/final-prj.md) (1)
+<!-- - [:material-school: __Academic Project__](Projects/Academic/final-prj.md) (1)
     { .annotate }
 
     1. Explore Fahmi's academic project encompassing embedded systems, digital signal processing, machine learning, and artificial neural networks, which culminated in his Bachelor of Applied Engineering degree. Detailed information on this innovative project is available here.
 
     ---
 
-    - [:octicons-meter-16: Smart Metering Systems](Projects/Academic/final-prj.md)
+    - [:octicons-meter-16: Smart Metering Systems](Projects/Academic/final-prj.md) -->
 
 
 
