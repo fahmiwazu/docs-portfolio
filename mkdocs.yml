@@ -99,21 +99,21 @@ nav:
         - Personal Library: Projects/Open-Source/qa/project3.md
         - Sudoku Solver: Projects/Open-Source/qa/project4.md
         - American-British Translator: Projects/Open-Source/qa/project5.md
-    - Katalon : 
-      - API Automation: Projects/Open-Source/katalon-api.md
-      - Web UI Automation: Projects/Open-Source/katalon-web-ui.md
+    # - Katalon : 
+    #   - API Automation: Projects/Open-Source/katalon-api.md
+    #   - Web UI Automation: Projects/Open-Source/katalon-web-ui.md
     - Postman :  
       - API Test Automation: Projects/Open-Source/postman-api-auto.md
   - Personal Project : 
     - 1to50 Puzzle: Projects/Personal/1to50.md
-    - Car Rental: Projects/Personal/car-rental.md
-    - CRUD App: Projects/Personal/simple-be-app.md
-    - Melaka : Projects/Personal/melaka.md
-  - Professional Project: 
-      - Desktop Automation Tools: Projects/Professional/desktop-app.md
-      - .NET Automation Script: Projects/Professional/dotnet-app.md
-  - Academic Project:
-    - Smart Metering Systems: Projects/Academic/final-prj.md
+    # - Car Rental: Projects/Personal/car-rental.md
+    # - CRUD App: Projects/Personal/simple-be-app.md
+    # - Melaka : Projects/Personal/melaka.md
+  # - Professional Project: 
+  #     - Desktop Automation Tools: Projects/Professional/desktop-app.md
+  #     - .NET Automation Script: Projects/Professional/dotnet-app.md
+  # - Academic Project:
+  #   - Smart Metering Systems: Projects/Academic/final-prj.md
 
 # Extensions  
 markdown_extensions:

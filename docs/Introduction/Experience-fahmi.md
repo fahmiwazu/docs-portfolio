@@ -5,6 +5,29 @@ If you're eager to explore Fahmi's professional career and education journey in 
 
 ## Professinoal Career
 
+### Quality Assurance Engineer  
+NICPAY Indonesia <br><small>(Aug 2020 - now)</small>
+
+- Develop and execute comprehensive test plans, test cases, and test scripts for payment gateway applications.
+- Conduct functional, regression, performance, and security testing to identify and resolve issues.
+- Collaborate with developers and product development to understand requirements and provide feedback on product design and functionality.
+- Automate testing processes to improve efficiency and coverage using industry-standard tools.
+- Analyze and document test results, reporting defects and suggesting improvements.
+- Maintain testing documentation, including test case design, execution reports, and defect logs.
+- Stay up-to-date with industry trends and emerging technologies to enhance testing strategies
+
+??? abstract "Documentation"
+    === "Bonding Puncak 2024"
+        <figure markdown="span">
+        ![Screenshot](img/Experience/Bonding Puncak 2024.jpg){ width="750" }
+        <figcaption>Bonding IT Planning & IT Development Department</figcaption>
+        </figure>
+    === "NICEPAY Cup 2.0"
+        <figure markdown="span">
+        ![Screenshot](img/Experience/NICEPAYCUP 2.0.jpg){ width="750" }
+        <figcaption>NICEPAY Badminton Cup 2024</figcaption>
+        </figure>
+
 ### Test Engineer  
 EDMI Indonesia <br><small>(Mar 2020 - Apr 2024) · 4 yrs 2 mos</small>
 
