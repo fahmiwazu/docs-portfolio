@@ -12,8 +12,8 @@ theme:
   name: material
   icon:
     annotation: material/arrow-right-circle-outline
-    logo: simple/testinglibrary
-    menu: simple/testinglibrary
+    logo: material/bullseye-arrow
+    menu: material/bullseye-arrow
   features:
     - navigation.tabs
     - navigation.sections
