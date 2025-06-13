@@ -8,8 +8,8 @@ If you're looking to contact Fahmi regarding his personal or project source code
 
 <div class="grid cards" markdown>
 
-- :simple-linkedin: : [fahmiwiradika96](https://www.linkedin.com/in/fahmiwiradika96/)
-- :simple-gmail: : fahmi.wiradika96@gmail.com
+- :fontawesome-brands-linkedin: : [fahmiwiradika96](https://www.linkedin.com/in/fahmiwiradika96/)
+- :simple-gmail: : [fahmi.wiradika96@gmail.com](mailto:fahmi.wiradika96@gmail.com)
 - :simple-github: : [fahmiwazu](https://github.com/fahmiwazu)
 - :simple-postman: : [fahmi-wiradika](https://www.postman.com/fahmi-wiradika)
 
@@ -23,11 +23,11 @@ Fahmi's tech stack includes programming languages, version control systems (VCS)
 - :fontawesome-solid-code: Programming Language
 
     ---
-    - :material-language-csharp: : C#/.NET
-    - :material-language-javascript: : JavaScript
     - :material-language-python: : Python
     - :material-language-java: : Java
+    - :material-language-javascript: : JavaScript
     - :material-language-markdown: : Markdown
+    - :material-language-csharp: : C#/.NET
 
 - :material-developer-board: Integrated Development Environment
 
@@ -60,7 +60,6 @@ Fahmi's tech stack includes programming languages, version control systems (VCS)
     - :simple-nodedotjs: : Node.js
     - :simple-chai: : Chai
     - :simple-selenium: : Selenium webdriver
-    - Katalon Studio
 
 - :material-file-document-alert: Issue Tracking and Documenation
 
@@ -73,7 +72,12 @@ Fahmi's tech stack includes programming languages, version control systems (VCS)
 
     ---
     - :simple-githubactions: : GitHub Action
-    - :simple-teamcity: : TeamCity
+
+- :simple-framework: Testing Framework
+
+    ---
+    - :simple-pytest: : PyTest
+    - :simple-junit5: : Junit
 
 </div>
 
