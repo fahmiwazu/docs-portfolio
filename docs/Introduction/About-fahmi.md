@@ -32,11 +32,11 @@ Fahmi's tech stack includes programming languages, version control systems (VCS)
 - :material-developer-board: Integrated Development Environment
 
     ---
-    - :material-microsoft-visual-studio: : Visual Studio 
+    - :simple-pycharm: : PyCharm 
+    - :simple-intellijidea: : IntelliJ 
     - :material-microsoft-visual-studio-code: : Visual Code
     - :simple-eclipseide: : Eclipse 
-    - :simple-intellijidea: : IntelliJ 
-    - :simple-pycharm: : PyCharm 
+    - :material-microsoft-visual-studio: : Visual Studio 
 
 - :material-git: Versioning Control System
 
@@ -67,6 +67,8 @@ Fahmi's tech stack includes programming languages, version control systems (VCS)
     - :simple-materialformkdocs: : MkDocs
     - :simple-jira: : JIRA
     - :simple-confluence: : Confluence
+    - :simple-kibana: : Kibana
+    - :simple-linux: : Hiware
 
 - :octicons-workflow-16: CI/CD Workflow
 
