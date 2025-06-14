@@ -4,6 +4,7 @@
 mkdocs
 mkdocs-autorefs
 mkdocs-material
+mkdocs-glightbox
 mkdocs-git-revision-date-localized-plugin
 pymdown-extensions
 Pygments
