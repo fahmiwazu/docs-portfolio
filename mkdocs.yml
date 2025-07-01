@@ -84,21 +84,21 @@ nav:
       - Relational Database : 
         - Celestial Bodies Database: projects/assignment/relationalDatabase/celestialDB.md
         - World Cup Database: projects/assignment/relationalDatabase/worldCupDB.md
-        - Salon Appointment Scheduler: projects/assignment/relationalDatabase/project3.md
-        - Periodic Table Database: projects/assignment/relationalDatabase/project4.md
-        - Number Guessing Game: projects/assignment/relationalDatabase/project5.md
+        - Salon Appointment Scheduler: projects/assignment/relationalDatabase/salonDB.md
+        - Periodic Table Database: projects/assignment/relationalDatabase/periodicTable.md
+        - Number Guessing Game: projects/assignment/relationalDatabase/numberGuessing.md
       - Back End Development and APIs: 
         - Timestamp Microservice: projects/assignment/backendAPI/celestialDB.md
         - Request Header Parser Microservice: projects/assignment/backendAPI/worldCupDB.md
-        - URL Shortener Microservice: projects/assignment/backendAPI/project3.md
-        - Exercise Tracer: projects/assignment/backendAPI/project4.md
-        - File Metadata Microservice: projects/assignment/backendAPI/project5.md
+        - URL Shortener Microservice: projects/assignment/backendAPI/salonDB.md
+        - Exercise Tracer: projects/assignment/backendAPI/periodicTable.md
+        - File Metadata Microservice: projects/assignment/backendAPI/numberGuessing.md
       - Quality Assurance: 
         - Metric-Imperial Converter: projects/assignment/qualityAssurance/celestialDB.md
         - Issue Tracker: projects/assignment/qualityAssurance/worldCupDB.md
-        - Personal Library: projects/assignment/qualityAssurance/project3.md
-        - Sudoku Solver: projects/assignment/qualityAssurance/project4.md
-        - American-British Translator: projects/assignment/qualityAssurance/project5.md
+        - Personal Library: projects/assignment/qualityAssurance/salonDB.md
+        - Sudoku Solver: projects/assignment/qualityAssurance/periodicTable.md
+        - American-British Translator: projects/assignment/qualityAssurance/numberGuessing.md
     - Postman :  
       - API Test Automation: projects/assignment/postman/postman-api-auto.md
   - Data Structure & Algorithm :
