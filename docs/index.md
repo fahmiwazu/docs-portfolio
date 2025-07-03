@@ -7,65 +7,55 @@ Welcome to Fahmi's Project Library, where you can explore a comprehensive collec
 
 If you are seeking comprehensive insights into Fahmi as an individual, including his contact information, professional career spanning software development and testing, and the certifications he has diligently earned, you will find detailed information here.
 
-[Let's get started :material-arrow-right:](Introduction/About-fahmi.md){ .md-button }
+[Let's get started :material-arrow-right:](introduction/About-fahmi.md){ .md-button }
 
 ## :material-file-document-multiple: Documentation Chategories
 
-For those interested in exploring Fahmi's project documentation across categories such as Professional, Open-source, Personal, and Academic Projects, this overview offers a concise introduction to his varied and significant contributions in each field.
+For those interested in exploring Fahmi's project documentation across categories such as Professional, Assignment, Personal, and Academic Projects, this overview offers a concise introduction to his varied and significant contributions in each field.
 
 <div class="grid cards" markdown>
 
-- [:material-open-source-initiative: __Open-source Project__](Projects/Open-Source/fcc-bedaa.md) (1)
+- [:material-open-source-initiative: __Assignment Project__](projects/assignment/relationalDatabase/celestialDB.md) (1)
     { .annotate }
 
-    1. Discover more about Fahmi's open-source project developed for certification purposes aimed at improving the QA process for his next professional career right here, where detailed information awaits.
+    1. Discover more about Fahmi's Assignment project developed for certification purposes aimed at improving the QA process for his next professional career right here, where detailed information awaits.
+
+    ---
+    - [ Relational Database](projects/assignment/relationalDatabase/celestialDB.md)
+    - [ Postman API Test Automation](projects/assignment/postman/postmanAutomation)
+
+- [:material-account: __Data Structure and Algorithm__](projects/dataStructureAlgorithm/webQuiz) (1)
+    { .annotate }
+
+    1. For those curious about Fahmi's Data Structure and Algorithm project focused on enhancing skills acquired from online courses and assignment certification programs, detailed information and insights are available here.
 
     ---
 
-    - [:fontawesome-brands-free-code-camp: Back End Development and APIs](Projects/Open-Source/fcc-bedaa.md)
-    - [:fontawesome-brands-free-code-camp: Relational Database](Projects/Open-Source/fcc-bedaa.md)
-    - [:fontawesome-brands-free-code-camp: Quality Assurance](Projects/Open-Source/fcc-bedaa.md)
-    - [:simple-postman: API Test Automation](Projects/Open-Source/postman-api-auto.md)
+    - [Web Quiz Automation](projects/dataStructureAlgorithm/webQuiz.md)
+    - [Flexible FizzBuzz Concat](projects/dataStructureAlgorithm/flexibleFizzBuzz.md)
+    - [Fibonacci Indexes](projects/dataStructureAlgorithm/fibonacciIndex.md)
+    - [Longest Palindrome](projects/dataStructureAlgorithm/longestPalindrome.md)
 
-- [:material-account: __Personal Project__](Projects/Personal/1to50.md) (1)
-    { .annotate }
-
-    1. For those curious about Fahmi's personal project focused on enhancing skills acquired from online courses and open-source certification programs, detailed information and insights are available here.
-
-    ---
-
-    - [:simple-selenium: 1to50 Puzzle Automation](Projects/Personal/1to50.md)
-
-
-<!-- - [:material-professional-hexagon: __Professional Project__](Projects/Professional/desktop-app.md) (1)
+- [:material-professional-hexagon: __Sample of Work__](projects/workSample/javaAutomation.md) (1)
     { .annotate }
 
     1. Explore Fahmi's notable contributions to automation tools and script automation, specifically designed to enhance the QA process throughout his professional career, right here for detailed insights.
 
     ---
 
-    - [:octicons-device-desktop-24: Desktop Automation Tools](Projects/Professional/desktop-app.md)
-    - [:simple-dotnet: C#/.NET Automation Script](Projects/Professional/dotnet-app.md) -->
+    - [Java Test Automation](projects/workSample/javaAutomation.md)
+    - [Python Test Automation](projects/workSample/pythonAutomation.md) 
 
-<!-- - [:material-school: __Academic Project__](Projects/Academic/final-prj.md) (1)
+ - [:material-school: __Academic Research__](projects/academic/chapterOne.md) (1)
     { .annotate }
 
     1. Explore Fahmi's academic project encompassing embedded systems, digital signal processing, machine learning, and artificial neural networks, which culminated in his Bachelor of Applied Engineering degree. Detailed information on this innovative project is available here.
 
     ---
 
-    - [:octicons-meter-16: Smart Metering Systems](Projects/Academic/final-prj.md) -->
+    - [Smart Metering Systems](projects/academic/chapterOne.md) 
 
-<!-- - [:fontawesome-solid-k: Web UI Automation](Projects/Open-Source/katalon-web-ui.md)
-    - [:fontawesome-solid-k: API Automation](Projects/Open-Source/katalon-api.md) -->
-
-<!-- - [:simple-selenium: Car Rental Automation](Projects/Personal/car-rental.md)
-- [:fontawesome-brands-node-js: Simple CRUD Backend](Projects/Personal/simple-be-app.md)
-- [:fontawesome-solid-k: Melaka Web Automation](Projects/Personal/melaka.md) -->
-
-
-
-
+    
 </div>
 
 

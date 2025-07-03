@@ -76,44 +76,47 @@ extra:
 nav:
   - Home : index.md
   - Introduction : 
-    - About Fahmi: Introduction/About-fahmi.md
-    - Experience : Introduction/Experience-fahmi.md
-    - Certification: Introduction/Certification-fahmi.md
-  - Open Source Project :
+    - About Fahmi: introduction/About-fahmi.md
+    - Experience : introduction/Experience-fahmi.md
+    - Certification: introduction/Certification-fahmi.md
+  - Assignment Project :
     - freeCodeCamp:
       - Relational Database : 
-        - Celestial Bodies Database: Projects/Open-Source/rdb/project1.md
-        - World Cup Database: Projects/Open-Source/rdb/project2.md
-        - Salon Appointment Scheduler: Projects/Open-Source/rdb/project3.md
-        - Periodic Table Database: Projects/Open-Source/rdb/project4.md
-        - Number Guessing Game: Projects/Open-Source/rdb/project5.md
-      - Back End Development and APIs: 
-        - Timestamp Microservice: Projects/Open-Source/bedaa/project1.md
-        - Request Header Parser Microservice: Projects/Open-Source/bedaa/project2.md
-        - URL Shortener Microservice: Projects/Open-Source/bedaa/project3.md
-        - Exercise Tracer: Projects/Open-Source/bedaa/project4.md
-        - File Metadata Microservice: Projects/Open-Source/bedaa/project5.md
+        - Celestial Bodies Database: projects/assignment/relationalDatabase/celestialDB.md
+        - World Cup Database: projects/assignment/relationalDatabase/worldCupDB.md
+        - Salon Appointment Scheduler: projects/assignment/relationalDatabase/salonDB.md
+        - Periodic Table Database: projects/assignment/relationalDatabase/periodicTable.md
+        - Number Guessing Game: projects/assignment/relationalDatabase/numberGuessing.md
+#      - Back End Development and APIs:
+#        - Timestamp Microservice: projects/assignment/backendAPI/timeStamp.md
+#        - Request Header Parser Microservice: projects/assignment/backendAPI/reqHeaderParser.md
+#        - URL Shortener Microservice: projects/assignment/backendAPI/urlShortener.md
+#        - Exercise Tracer: projects/assignment/backendAPI/exerciseTable.md
+#        - File Metadata Microservice: projects/assignment/backendAPI/fileMetadata.md
       - Quality Assurance: 
-        - Metric-Imperial Converter: Projects/Open-Source/qa/project1.md
-        - Issue Tracker: Projects/Open-Source/qa/project2.md
-        - Personal Library: Projects/Open-Source/qa/project3.md
-        - Sudoku Solver: Projects/Open-Source/qa/project4.md
-        - American-British Translator: Projects/Open-Source/qa/project5.md
-    # - Katalon : 
-    #   - API Automation: Projects/Open-Source/katalon-api.md
-    #   - Web UI Automation: Projects/Open-Source/katalon-web-ui.md
+#        - Metric-Imperial Converter: projects/assignment/qualityAssurance/metricImperialConverter.md
+#        - Issue Tracker: projects/assignment/qualityAssurance/issueTracker.md
+#        - Personal Library: projects/assignment/qualityAssurance/personalLibrary.md
+#        - Sudoku Solver: projects/assignment/qualityAssurance/sudokuSolver.md
+        - American-British Translator: projects/assignment/qualityAssurance/american-britishTranslator.md
     - Postman :  
-      - API Test Automation: Projects/Open-Source/postman-api-auto.md
-  - Personal Project : 
-    - 1to50 Puzzle: Projects/Personal/1to50.md
-    # - Car Rental: Projects/Personal/car-rental.md
-    # - CRUD App: Projects/Personal/simple-be-app.md
-    # - Melaka : Projects/Personal/melaka.md
-  # - Professional Project: 
-  #     - Desktop Automation Tools: Projects/Professional/desktop-app.md
-  #     - .NET Automation Script: Projects/Professional/dotnet-app.md
-  # - Academic Project:
-  #   - Smart Metering Systems: Projects/Academic/final-prj.md
+      - API Test Automation: projects/assignment/postman/postmanAutomation.md
+  - Data Structure & Algorithm :
+    - Web Quiz Automation: projects/dataStructureAlgorithm/webQuiz.md
+#    - Flexible FizzBuzz Concat: projects/dataStructureAlgorithm/flexibleFizzBuzz.md
+#    - Fibonacci Indexes Finder: projects/dataStructureAlgorithm/fibonacciIndex.md
+#    - Longest Palindrome : projects/dataStructureAlgorithm/longestPalindrome.md
+#  - Sample of Work:
+#    - Java Automation Test: projects/workSample/javaAutomation.md
+#    - Python Automation Test: projects/workSample/pythonAutomation.md
+#  - Academic Research:
+#    - Bachelor Research:
+#      - Smart Metering Systems:
+#        - Overview: projects/academic/overview.md
+#        - Chapter 1: projects/academic/chapterOne.md
+#        - Chapter 2: projects/academic/chapterTwo.md
+#        - Chapter 3: projects/academic/chapterThree.md
+#        - Chapter 4: projects/academic/chapterFour.md
 
 # Extensions  
 markdown_extensions:
