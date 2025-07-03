@@ -22,7 +22,7 @@ For those interested in exploring Fahmi's project documentation across categorie
 
     ---
     - [ Relational Database](projects/assignment/relationalDatabase/celestialDB.md)
-    - [ Postman API Test Automation](projects/assignment/postman/postman-api-auto.md)
+    - [ Postman API Test Automation](projects/assignment/postman/postmanAutomation)
 
 - [:material-account: __Data Structure and Algorithm__](projects/dataStructureAlgorithm/webQuiz) (1)
     { .annotate }

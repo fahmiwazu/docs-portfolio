@@ -5,6 +5,7 @@ This project is part of the **FreeCodeCamp Relational Database Certification** c
 ## 📋 Project Overview
 
 The Periodic Table Database project involves:
+
 - Creating a PostgreSQL database to store chemical element data
 - Fixing and restructuring an existing database schema
 - Implementing proper relationships between elements, properties, and types
@@ -23,6 +24,7 @@ CREATE TABLE public.elements (
     name character varying(40) NOT NULL
 );
 ```
+
 - **atomic_number**: Primary key, unique identifier for each element
 - **symbol**: Chemical symbol (e.g., 'H', 'He', 'Li')
 - **name**: Full element name (e.g., 'Hydrogen', 'Helium', 'Lithium')
@@ -37,6 +39,7 @@ CREATE TABLE public.properties (
     type_id integer NOT NULL
 );
 ```
+
 - **atomic_number**: Foreign key referencing elements.atomic_number
 - **atomic_mass**: Atomic mass in atomic mass units (amu)
 - **melting_point_celsius**: Melting point in Celsius
@@ -50,6 +53,7 @@ CREATE TABLE public.types (
     type character varying(30) NOT NULL
 );
 ```
+
 - **type_id**: Primary key, unique identifier for element types
 - **type**: Element type (e.g., 'metal', 'nonmetal', 'metalloid')
 
@@ -101,6 +105,7 @@ This interactive bash script allows users to query element information by provid
 - **Element name** (e.g., `Hydrogen`, `Helium`, `Lithium`)
 
 **Key Features:**
+
 - Input validation for different argument types
 - Smart pattern matching for partial element names
 - Comprehensive error handling
@@ -147,6 +152,7 @@ fi
 ## 📊 Data Coverage
 
 The database contains:
+
 - **Elements**: 118 chemical elements from the periodic table
 - **Types**: 3 main categories (metal, nonmetal, metalloid)
 - **Properties**: Complete atomic data including mass and temperature points
@@ -216,24 +222,24 @@ LIMIT 10;
 This project demonstrates proficiency in:
 
 1. **Database Design**
-   - Normalizing database structure
-   - Creating proper relationships between tables
-   - Implementing data integrity constraints
+     - Normalizing database structure
+     - Creating proper relationships between tables
+     - Implementing data integrity constraints
 
 2. **Data Manipulation**
-   - Cleaning and formatting existing data
-   - Restructuring tables and columns
-   - Maintaining referential integrity during modifications
+     - Cleaning and formatting existing data
+     - Restructuring tables and columns
+     - Maintaining referential integrity during modifications
 
 3. **Shell Scripting**
-   - Creating interactive command-line tools
-   - Processing user input and validation
-   - Integrating with PostgreSQL databases
+     - Creating interactive command-line tools
+     - Processing user input and validation
+     - Integrating with PostgreSQL databases
 
 4. **SQL Querying**
-   - Writing complex JOIN queries
-   - Using pattern matching with LIKE
-   - Handling different data types effectively
+     - Writing complex JOIN queries
+     - Using pattern matching with LIKE
+     - Handling different data types effectively
 
 ## 🔧 Technical Implementation Details
 
@@ -241,6 +247,7 @@ This project demonstrates proficiency in:
 ```bash
 PSQL="psql --username=freecodecamp --dbname=periodic_table --no-align --tuples-only -c"
 ```
+
 - Uses specific username and database
 - Formats output for script processing
 - Removes headers and alignment for clean parsing
@@ -288,6 +295,7 @@ The project demonstrates real-world database skills applicable to scientific dat
 ## 🔮 Potential Extensions
 
 Future enhancements could include:
+
 - Electron configuration data
 - Isotope information and radioactive properties
 - Historical discovery dates and discoverers

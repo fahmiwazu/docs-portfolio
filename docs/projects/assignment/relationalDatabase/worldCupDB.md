@@ -5,6 +5,7 @@ This project is part of the **FreeCodeCamp Relational Database Certification** c
 ## 📋 Project Overview
 
 The World Cup Database project involves:
+
 - Creating a PostgreSQL database to store World Cup tournament data
 - Implementing database schema with proper relationships
 - Importing data from CSV files using shell scripts
@@ -21,6 +22,7 @@ CREATE TABLE public.teams (
     name character varying(255) NOT NULL
 );
 ```
+
 - **team_id**: Primary key, auto-incrementing integer
 - **name**: Unique team name (e.g., 'France', 'Croatia')
 
@@ -36,6 +38,7 @@ CREATE TABLE public.games (
     round character varying(255) NOT NULL
 );
 ```
+
 - **game_id**: Primary key, auto-incrementing integer
 - **winner_id**: Foreign key referencing teams.team_id
 - **opponent_id**: Foreign key referencing teams.team_id
@@ -84,6 +87,7 @@ Run the data insertion script:
 ```
 
 The script will:
+
 - Read data from `games.csv`
 - Insert unique team names into the teams table
 - Insert game records with proper foreign key relationships
@@ -94,6 +98,7 @@ The script will:
 This script processes the CSV file and populates the database:
 
 **Key Features:**
+
 - Handles both test and production environments
 - Truncates existing data before insertion
 - Reads CSV line by line using IFS (Internal Field Separator)
@@ -101,6 +106,7 @@ This script processes the CSV file and populates the database:
 - Maintains referential integrity
 
 **Logic Flow:**
+
 1. Truncate both tables to start fresh
 2. For each CSV row:
    - Check if winner team exists, insert if not
@@ -303,6 +309,7 @@ To verify your queries work correctly:
 ## 🏆 Data Coverage
 
 The database contains:
+
 - **Years**: 2014 and 2018 World Cup tournaments
 - **Teams**: 24 unique national teams
 - **Games**: 32 tournament matches
@@ -316,25 +323,25 @@ France, Croatia, Belgium, England, Russia, Sweden, Brazil, Uruguay, Colombia, Sw
 This project demonstrates proficiency in:
 
 1. **Database Design**
-   - Creating normalized table structures
-   - Implementing foreign key relationships
-   - Setting up proper constraints
+     - Creating normalized table structures
+     - Implementing foreign key relationships
+     - Setting up proper constraints
 
 2. **Data Import/ETL**
-   - Processing CSV files with shell scripts
-   - Handling data validation and deduplication
-   - Maintaining referential integrity during import
+     - Processing CSV files with shell scripts
+     - Handling data validation and deduplication
+     - Maintaining referential integrity during import
 
 3. **SQL Querying**
-   - Writing complex JOIN queries
-   - Using aggregate functions
-   - Implementing conditional logic
-   - String manipulation and pattern matching
+     - Writing complex JOIN queries
+     - Using aggregate functions
+     - Implementing conditional logic
+     - String manipulation and pattern matching
 
 4. **Shell Scripting**
-   - File processing and data manipulation
-   - PostgreSQL integration
-   - Environment-specific configurations
+     - File processing and data manipulation
+     - PostgreSQL integration
+     - Environment-specific configurations
 
 ## 🔍 Key Technical Concepts
 
@@ -347,6 +354,7 @@ This project demonstrates proficiency in:
 ## 📈 Potential Extensions
 
 Future enhancements could include:
+
 - Additional tournament years
 - Player statistics and lineups
 - Match locations and venues

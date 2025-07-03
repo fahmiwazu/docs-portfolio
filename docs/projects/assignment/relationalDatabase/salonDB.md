@@ -5,6 +5,7 @@ This project is part of the **FreeCodeCamp Relational Database Certification** c
 ## 📋 Project Overview
 
 The Salon Appointment Scheduler project involves:
+
 - Creating a PostgreSQL database to manage salon services and appointments
 - Implementing a normalized database schema with proper relationships
 - Building an interactive bash script for customer appointment booking
@@ -21,6 +22,7 @@ CREATE TABLE public.services (
     name character varying(255) NOT NULL
 );
 ```
+
 - **service_id**: Primary key, auto-incrementing integer
 - **name**: Service name (e.g., 'Potong Rambut', 'Cukur Jenggot')
 
@@ -32,6 +34,7 @@ CREATE TABLE public.customers (
     name character varying(255) NOT NULL
 );
 ```
+
 - **customer_id**: Primary key, auto-incrementing integer
 - **phone**: Unique customer phone number (serves as natural identifier)
 - **name**: Customer full name
@@ -45,6 +48,7 @@ CREATE TABLE public.appointments (
     "time" character varying(255)
 );
 ```
+
 - **appointment_id**: Primary key, auto-incrementing integer
 - **customer_id**: Foreign key referencing customers.customer_id
 - **service_id**: Foreign key referencing services.service_id
@@ -102,16 +106,19 @@ Welcome to Wazzalon, how can I help you?
 ```
 
 **Service Selection:**
+
 - Displays all available services with numbered options
 - Validates user input (numbers 1-5 only)
 - Handles invalid selections with appropriate error messages
 
 **Customer Management:**
+
 - Phone number-based customer lookup
 - Automatic new customer registration
 - Maintains customer data consistency
 
 **Appointment Booking:**
+
 - Service selection validation
 - Time input flexibility
 - Confirmation message with booking details
@@ -255,6 +262,7 @@ PSQL="psql -X --username=freecodecamp --dbname=salon --tuples-only -c"
 ## 📈 Potential Extensions
 
 Future enhancements could include:
+
 - **Service Pricing**: Add cost information to services table
 - **Appointment Duration**: Track service duration for scheduling
 - **Staff Management**: Add stylists/employees table
@@ -267,29 +275,29 @@ Future enhancements could include:
 
 This project demonstrates proficiency in:
 
-### Database Management
-- Creating and managing PostgreSQL databases
-- Implementing normalized table structures
-- Setting up foreign key relationships
-- Writing efficient SQL queries
+1. Database Management
+    - Creating and managing PostgreSQL databases
+    - Implementing normalized table structures
+    - Setting up foreign key relationships
+    - Writing efficient SQL queries
 
-### Bash Scripting
-- Interactive menu systems
-- Input validation and error handling
-- String manipulation and formatting
-- Database integration with shell scripts
+2. Bash Scripting
+    - Interactive menu systems
+    - Input validation and error handling
+    - String manipulation and formatting
+    - Database integration with shell scripts
 
-### Application Development
-- User experience design
-- Business logic implementation
-- Data validation and sanitization
-- Error handling and recovery
+3. Application Development
+    - User experience design
+    - Business logic implementation
+    - Data validation and sanitization
+    - Error handling and recovery
 
-### Software Engineering Principles
-- Separation of concerns (database vs. application logic)
-- Input validation and security
-- User-friendly interface design
-- Maintainable code structure
+4. Software Engineering Principles
+    - Separation of concerns (database vs. application logic)
+    - Input validation and security
+    - User-friendly interface design
+    - Maintainable code structure
 
 ## 🏅 Course Context
 
@@ -302,6 +310,7 @@ This project is part of the **FreeCodeCamp Relational Database Certification**, 
 - **Business Logic**: Real-world appointment scheduling system
 
 The project simulates a real salon management system, demonstrating skills applicable to:
+
 - Small business management systems
 - Appointment scheduling applications
 - Customer relationship management (CRM)

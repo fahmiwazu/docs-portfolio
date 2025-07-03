@@ -5,6 +5,7 @@ This project is part of the **FreeCodeCamp Relational Database Certification** c
 ## 📋 Project Overview
 
 The Number Guessing Game Database project involves:
+
 - Creating a PostgreSQL database to store user data and game statistics
 - Implementing a bash script for an interactive number guessing game
 - Managing user authentication and game history tracking
@@ -21,6 +22,7 @@ CREATE TABLE public.users (
     username character varying(22) NOT NULL
 );
 ```
+
 - **user_id**: Primary key, auto-incrementing integer
 - **username**: Unique username (max 22 characters)
 
@@ -32,6 +34,7 @@ CREATE TABLE public.games (
     user_id integer
 );
 ```
+
 - **game_id**: Primary key, auto-incrementing integer
 - **number_guesses**: Number of guesses taken to complete the game
 - **user_id**: Foreign key referencing users.user_id
@@ -89,8 +92,8 @@ Execute the game script:
 ### User Experience Flow
 1. **Username Input**: Player enters their username
 2. **User Recognition**: 
-   - New users receive a welcome message
-   - Returning users see their game statistics
+     - New users receive a welcome message
+     - Returning users see their game statistics
 3. **Game Start**: Random number (1-1000) is generated
 4. **Guessing Loop**: Player makes guesses with directional feedback
 5. **Game End**: Victory message with guess count
@@ -104,6 +107,7 @@ Execute the game script:
 ```bash
 PSQL="psql --username=freecodecamp --dbname=number_guessdb --no-align --tuples-only -c"
 ```
+
 - Establishes connection parameters for PostgreSQL
 - Uses tuples-only mode for clean data retrieval
 
@@ -122,6 +126,7 @@ fi
 ```
 
 **Key Logic:**
+
 - Checks if username exists in database
 - Creates new user if not found
 - Retrieves game statistics for returning users
@@ -131,6 +136,7 @@ fi
 ```bash
 RANUM=$(( 1 + $RANDOM % 1000))
 ```
+
 - Generates random number between 1 and 1000
 - Uses bash's built-in `$RANDOM` variable
 
@@ -157,6 +163,7 @@ done
 ```
 
 **Validation Features:**
+
 - Regular expression validation for integer input
 - Comparative logic for directional hints
 - Guess counter increment
@@ -167,6 +174,7 @@ done
 USER_ID=$($PSQL "SELECT user_id FROM users WHERE username='$USERNAME'")
 INSERT_GAME=$($PSQL "INSERT INTO games(number_guesses, user_id) VALUES($GUESS, $USER_ID)")
 ```
+
 - Retrieves user ID for foreign key relationship
 - Records game result in games table
 
@@ -220,6 +228,7 @@ FROM games;
 ## 🏆 Sample Data Analysis
 
 Based on the provided database dump, the system contains:
+
 - **Users**: 9 registered players
 - **Games**: 29 completed games
 - **Performance Range**: 7-1002 guesses per game
@@ -234,31 +243,31 @@ Based on the provided database dump, the system contains:
 
 This project demonstrates proficiency in:
 
-### Database Design
-- Creating normalized table structures
-- Implementing one-to-many relationships
-- Setting up auto-incrementing primary keys
-- Managing foreign key constraints
+1. Database Design
+    - Creating normalized table structures
+    - Implementing one-to-many relationships
+    - Setting up auto-incrementing primary keys
+    - Managing foreign key constraints
 
-### Bash Scripting
-- Interactive user input handling
-- Regular expression validation
-- Conditional logic and loops
-- Random number generation
-- String manipulation and formatting
+2. Bash Scripting
+    - Interactive user input handling
+    - Regular expression validation
+    - Conditional logic and loops
+    - Random number generation
+    - String manipulation and formatting
 
-### SQL Operations
-- User authentication queries
-- Statistical aggregate functions (COUNT, MIN)
-- JOIN operations for related data
-- INSERT operations for data recording
-- Parameterized queries for security
+3. SQL Operations
+    - User authentication queries
+    - Statistical aggregate functions (COUNT, MIN)
+    - JOIN operations for related data
+    - INSERT operations for data recording
+    - Parameterized queries for security
 
-### Game Development Concepts
-- User session management
-- Game state tracking
-- Performance metrics
-- Data persistence
+4. Game Development Concepts
+    - User session management
+    - Game state tracking
+    - Performance metrics
+    - Data persistence
 
 ## 🔍 Key Technical Concepts
 
@@ -280,6 +289,7 @@ This project demonstrates proficiency in:
 ## 📈 Potential Extensions
 
 Future enhancements could include:
+
 - **Difficulty Levels**: Different number ranges or limited guesses
 - **Multiplayer Features**: Competitive modes or leaderboards  
 - **Enhanced Statistics**: Win streaks, average performance trends

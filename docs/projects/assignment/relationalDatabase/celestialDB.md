@@ -5,6 +5,7 @@ This project is part of the **FreeCodeCamp Relational Database Certification** c
 ## 📋 Project Overview
 
 The Celestial Bodies Database project involves:
+
 - Creating a comprehensive PostgreSQL database for astronomical data
 - Implementing normalized database schema with proper relationships
 - Storing information about galaxies, stars, planets, and moons
@@ -27,6 +28,7 @@ CREATE TABLE galaxy (
     distance_from_earth_in_light_years INT
 );
 ```
+
 - **galaxy_id**: Primary key, auto-incrementing integer
 - **name**: Unique galaxy name (e.g., 'Milky Way', 'Andromeda')
 - **galaxy_type**: Classification type (Spiral, Elliptical, etc.)
@@ -50,6 +52,7 @@ CREATE TABLE star (
     has_planets BOOLEAN
 );
 ```
+
 - **star_id**: Primary key, auto-incrementing integer
 - **galaxy_id**: Foreign key referencing galaxy.galaxy_id
 - **mass_in_solar_masses**: Stellar mass relative to our Sun
@@ -74,6 +77,7 @@ CREATE TABLE planet (
     number_of_moons INT
 );
 ```
+
 - **planet_id**: Primary key, auto-incrementing integer
 - **star_id**: Foreign key referencing star.star_id
 - **mass_in_earth_masses**: Planetary mass relative to Earth
@@ -98,6 +102,7 @@ CREATE TABLE moon (
     has_water_ice BOOLEAN
 );
 ```
+
 - **moon_id**: Primary key, auto-incrementing integer
 - **planet_id**: Foreign key referencing planet.planet_id
 - **mass_in_earth_moon_masses**: Mass relative to Earth's Moon
@@ -116,6 +121,7 @@ CREATE TABLE galaxy_type (
     typical_characteristics TEXT
 );
 ```
+
 - **galaxy_type_id**: Primary key, auto-incrementing integer
 - **type_name**: Galaxy classification name
 - **description**: Detailed description of type
@@ -195,6 +201,7 @@ psql --username=freecodecamp --dbname=universe < universe.sql
 ✅ **Galaxy/Star Columns**: Five+ columns each  
 ✅ **Planet/Moon Columns**: Five+ columns each  
 ✅ **Row Requirements**:
+
 - Galaxy table: 6+ rows
 - Star table: 6+ rows  
 - Planet table: 12+ rows
@@ -309,30 +316,30 @@ ORDER BY avg_mass DESC;
 This project demonstrates proficiency in:
 
 1. **Database Design**
-   - Creating normalized relational schemas
-   - Implementing hierarchical relationships
-   - Using appropriate data types for astronomical data
-   - Setting up proper constraints and keys
+     - Creating normalized relational schemas
+     - Implementing hierarchical relationships
+     - Using appropriate data types for astronomical data
+     - Setting up proper constraints and keys
 
 2. **PostgreSQL Features**
-   - SERIAL primary keys with auto-increment
-   - NUMERIC data types for precision measurements
-   - BOOLEAN flags for classification
-   - TEXT fields for detailed descriptions
-   - Foreign key relationships
+     - SERIAL primary keys with auto-increment
+     - NUMERIC data types for precision measurements
+     - BOOLEAN flags for classification
+     - TEXT fields for detailed descriptions
+     - Foreign key relationships
 
 3. **SQL Querying**
-   - Complex multi-table JOINs
-   - Aggregate functions and GROUP BY
-   - Conditional logic with CASE statements
-   - Subqueries and data filtering
-   - Statistical analysis queries
+     - Complex multi-table JOINs
+     - Aggregate functions and GROUP BY
+     - Conditional logic with CASE statements
+     - Subqueries and data filtering
+     - Statistical analysis queries
 
 4. **Data Modeling**
-   - Astronomical object relationships
-   - Scientific data representation
-   - Hierarchical data structures
-   - Constraint implementation
+     - Astronomical object relationships
+     - Scientific data representation
+     - Hierarchical data structures
+     - Constraint implementation
 
 ## 🔍 Key Technical Concepts
 
@@ -345,6 +352,7 @@ This project demonstrates proficiency in:
 ## 🏆 Data Coverage
 
 The database contains:
+
 - **Galaxies**: 6+ major galaxies including Milky Way, Andromeda
 - **Stars**: 6+ stars including our Sun and notable stellar objects
 - **Planets**: 12+ planets from our solar system and exoplanets
@@ -353,6 +361,7 @@ The database contains:
 
 ### Scientific Accuracy
 Data sourced from:
+
 - NASA databases and catalogs
 - International Astronomical Union (IAU) classifications
 - Wikipedia astronomical data
@@ -400,6 +409,7 @@ pg_dump -cC --inserts -U freecodecamp universe > universe.sql
 ## 🚀 Potential Extensions
 
 Future enhancements could include:
+
 - Stellar evolution and lifecycle data
 - Exoplanet discovery information
 - Deep space object catalogs
