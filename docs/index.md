@@ -23,6 +23,7 @@ For those interested in exploring Fahmi's project documentation across categorie
     ---
     - [ Relational Database](projects/assignment/relationalDatabase/celestialDB.md)
     - [ Quality Assurance](projects/assignment/qualityAssurance/american-britishTranslator.md)
+    - [ Back-end Development & APIs](projects/assignment/backendAPI/exerciseTable.md)
     - [ Postman API Test Automation](projects/assignment/postman/postmanAutomation.md)
 
 [//]: # (- [:material-account: __Data Structure and Algorithm__]&#40;projects/dataStructureAlgorithm/webQuiz.md&#41; &#40;1&#41;)

@@ -87,11 +87,11 @@ nav:
         - Salon Appointment Scheduler: projects/assignment/relationalDatabase/salonDB.md
         - Periodic Table Database: projects/assignment/relationalDatabase/periodicTable.md
         - Number Guessing Game: projects/assignment/relationalDatabase/numberGuessing.md
-#      - Back End Development and APIs:
+      - Back End Development and APIs:
 #        - Timestamp Microservice: projects/assignment/backendAPI/timeStamp.md
 #        - Request Header Parser Microservice: projects/assignment/backendAPI/reqHeaderParser.md
 #        - URL Shortener Microservice: projects/assignment/backendAPI/urlShortener.md
-#        - Exercise Tracer: projects/assignment/backendAPI/exerciseTable.md
+        - Exercise Tracer: projects/assignment/backendAPI/exerciseTable.md
 #        - File Metadata Microservice: projects/assignment/backendAPI/fileMetadata.md
       - Quality Assurance: 
 #        - Metric-Imperial Converter: projects/assignment/qualityAssurance/metricImperialConverter.md
