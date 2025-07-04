@@ -101,67 +101,67 @@ postman-api-automation/
     2. **Response Parsing**: Extract product description from JSON response
     3. **Variable Management**: Store order ID for subsequent requests
 
-!!! abstract "Assignment"
-    === "Task 1: API Status Validation"
-        **Requirement**: Add a test to verify the API status endpoint returns 200
-    
-        **Solution**:
-        ```javascript
-        // Test Script for "Get API status"
-        pm.test("Status code is 200", function () {
-            pm.response.to.have.status(200);
-        });
-        ```
-    
-        **Key Concepts**:
-    
-        - Basic status code assertion
-        - Using `pm.test()` for test creation
-        - HTTP status validation patterns
-    
-    === "Task 2: JSON Response Parsing"
-        **Requirement**: Parse JSON response and log product description to console
-    
-        **Solution**:
-        ```javascript
-        // Test Script for "Get single product"
-        const response = pm.response.json();
-        console.log(response);
-        console.log(response.id);
-        console.log(response['product-description']);
-    
-        pm.test("Status code test: 200", function () {
-            pm.expect(pm.response.code).to.eql(200);
-        });
-        ```
-    
-        **Key Concepts**:
-    
-        - JSON response parsing with `pm.response.json()`
-        - Console logging for debugging
-        - Property access with dot notation and bracket notation
-        - Alternative status code validation method
-    
-    === "Task 3: Variable Management"
-        **Requirement**: Extract order ID from response and store in collection variable
-    
-        **Solution**:
-        ```javascript
-        // Test Script for "Create a new order"
-        pm.test("Status code is 200", function () {
-            pm.response.to.have.status(200);
-        });
-    
-        const response = pm.response.json();
-    
-        pm.collectionVariables.set('orderID', response.id);
-        ```
-    
-        **Key Concepts**:
-          
-        - Collection variable management
-        - Data extraction for test chaining
-        - Response data persistence
+    !!! abstract "Assignment"
+        === "Task 1: API Status Validation"
+            **Requirement**: Add a test to verify the API status endpoint returns 200
+        
+            **Solution**:
+            ```javascript
+            // Test Script for "Get API status"
+            pm.test("Status code is 200", function () {
+                pm.response.to.have.status(200);
+            });
+            ```
+        
+            **Key Concepts**:
+        
+            - Basic status code assertion
+            - Using `pm.test()` for test creation
+            - HTTP status validation patterns
+        
+        === "Task 2: JSON Response Parsing"
+            **Requirement**: Parse JSON response and log product description to console
+        
+            **Solution**:
+            ```javascript
+            // Test Script for "Get single product"
+            const response = pm.response.json();
+            console.log(response);
+            console.log(response.id);
+            console.log(response['product-description']);
+        
+            pm.test("Status code test: 200", function () {
+                pm.expect(pm.response.code).to.eql(200);
+            });
+            ```
+        
+            **Key Concepts**:
+        
+            - JSON response parsing with `pm.response.json()`
+            - Console logging for debugging
+            - Property access with dot notation and bracket notation
+            - Alternative status code validation method
+        
+        === "Task 3: Variable Management"
+            **Requirement**: Extract order ID from response and store in collection variable
+        
+            **Solution**:
+            ```javascript
+            // Test Script for "Create a new order"
+            pm.test("Status code is 200", function () {
+                pm.response.to.have.status(200);
+            });
+        
+            const response = pm.response.json();
+        
+            pm.collectionVariables.set('orderID', response.id);
+            ```
+        
+            **Key Concepts**:
+            
+            - Collection variable management
+            - Data extraction for test chaining
+            - Response data persistence
 
 ### Assignment #2: Comprehensive Status Code Testing
 
@@ -169,23 +169,23 @@ postman-api-automation/
     - Implement consistent status code validation across all endpoints
     - Standardize test patterns for maintainability
 
-!!! abstract "Assignment"
-    === "Task: Universal Status Code Testing"
-        **Requirement**: Apply `pm.expect()` status code tests to all collection requests
+    !!! abstract "Assignment"
+        === "Task: Universal Status Code Testing"
+            **Requirement**: Apply `pm.expect()` status code tests to all collection requests
 
-        **Solution**:
-        ```javascript
-        // Add to all endpoint Post-response scripts
-        pm.test("Status code test: 200", function () {
-            pm.expect(pm.response.code).to.eql(200);
-        });
-        ```
+            **Solution**:
+            ```javascript
+            // Add to all endpoint Post-response scripts
+            pm.test("Status code test: 200", function () {
+                pm.expect(pm.response.code).to.eql(200);
+            });
+            ```
 
-        **Key Concepts**:
+            **Key Concepts**:
 
-        - Consistent test pattern implementation
-        - Using `pm.expect()` for assertions
-        - Test standardization across endpoints
+            - Consistent test pattern implementation
+            - Using `pm.expect()` for assertions
+            - Test standardization across endpoints
 
 ### Assignment #3: Advanced Response Validation
 
@@ -199,51 +199,51 @@ postman-api-automation/
     2. **Property Validation**: Check ID property existence and format
     3. **Array Validation**: Verify products property is an array
 
-!!! abstract "Assignment"
-    === "Task 1: JSON Format Validation"
-        **Requirement**: Verify response is in JSON format
+    !!! abstract "Assignment"
+        === "Task 1: JSON Format Validation"
+            **Requirement**: Verify response is in JSON format
 
-        **Solution**:
-        ```javascript
-        // Test Script for "Get an order by ID"
-        let response;
+            **Solution**:
+            ```javascript
+            // Test Script for "Get an order by ID"
+            let response;
 
-        pm.test("Response body is JSON", function(){
-            pm.response.to.be.json;
-            response = pm.response.json();
-        });
-        ```
+            pm.test("Response body is JSON", function(){
+                pm.response.to.be.json;
+                response = pm.response.json();
+            });
+            ```
 
-    === "Task 2: ID Property Validation"
-        **Requirement**: Validate ID property existence and format using regex
+        === "Task 2: ID Property Validation"
+            **Requirement**: Validate ID property existence and format using regex
 
-        **Solution**:
-        ```javascript
-        // Test Script for "Get an order by ID"
-        pm.test("Get Property ID on JSON", function(){
-            pm.expect(response).to.have.property('id');
-            pm.expect(response.id).to.match(/^[A-Z0-9]{9}$/);
-        });
-        ```
+            **Solution**:
+            ```javascript
+            // Test Script for "Get an order by ID"
+            pm.test("Get Property ID on JSON", function(){
+                pm.expect(response).to.have.property('id');
+                pm.expect(response.id).to.match(/^[A-Z0-9]{9}$/);
+            });
+            ```
 
-    === "Task 3: Array Property Validation"
-        **Requirement**: Validate products property exists and is an array
+        === "Task 3: Array Property Validation"
+            **Requirement**: Validate products property exists and is an array
 
-        **Solution**:
-        ```javascript
-        // Test Script for "Get an order by ID"
-        pm.test("Get Property products on JSON", function(){
-            pm.expect(response).to.have.property('products');
-            pm.expect(response.products).to.be.a('array');
-        });
-        ```
+            **Solution**:
+            ```javascript
+            // Test Script for "Get an order by ID"
+            pm.test("Get Property products on JSON", function(){
+                pm.expect(response).to.have.property('products');
+                pm.expect(response.products).to.be.a('array');
+            });
+            ```
 
-        **Key Concepts**:
+            **Key Concepts**:
 
-        - Property existence validation
-        - Regular expression pattern matching
-        - Data type validation
-        - Complex assertion chains
+            - Property existence validation
+            - Regular expression pattern matching
+            - Data type validation
+            - Complex assertion chains
 
 ### Assignment #4: JSON Schema Validation
 
@@ -257,71 +257,71 @@ postman-api-automation/
     2. **Required Properties**: Specify all required fields
     3. **Additional Properties**: Restrict unexpected fields
 
-!!! abstract "Assignment"
-    === "Task 1: Basic Object Schema"
-        **Requirement**: Create JSON schema expecting object response
+    !!! abstract "Assignment"
+        === "Task 1: Basic Object Schema"
+            **Requirement**: Create JSON schema expecting object response
 
-        **Solution**:
-        ```javascript
-        // Test Script for "Get single product"
-        let response;
-        pm.test("Response body is JSON", function(){
-            pm.response.to.be.json;
-            response = pm.response.json();
-            console.log(response['product-description']);
-        });
-        ```
+            **Solution**:
+            ```javascript
+            // Test Script for "Get single product"
+            let response;
+            pm.test("Response body is JSON", function(){
+                pm.response.to.be.json;
+                response = pm.response.json();
+                console.log(response['product-description']);
+            });
+            ```
 
-    === "Task 2: Complete Schema with Required Properties"
-        **Requirement**: Define schema with all required properties
+        === "Task 2: Complete Schema with Required Properties"
+            **Requirement**: Define schema with all required properties
 
-        **Solution**:
-        ```javascript
-        // Test Script for "Get single product"
-        pm.test("JSON Schema are valid", function(){
-            const schema = {
-                'type': 'object',
-                'properties': {
-                    'id': {
-                        'type': 'integer'
+            **Solution**:
+            ```javascript
+            // Test Script for "Get single product"
+            pm.test("JSON Schema are valid", function(){
+                const schema = {
+                    'type': 'object',
+                    'properties': {
+                        'id': {
+                            'type': 'integer'
+                        },
+                        'category': {
+                            'type': 'string'
+                        },
+                        'name': {
+                            'type': 'string'
+                        },
+                        'isAvailable': {
+                            'type': 'boolean'
+                        },
+                        'product-description': {
+                            'type': 'string'
+                        },
+                        'additionalText': {
+                            'type': 'string'
+                        }                      
                     },
-                    'category': {
-                        'type': 'string'
-                    },
-                    'name': {
-                        'type': 'string'
-                    },
-                    'isAvailable': {
-                        'type': 'boolean'
-                    },
-                    'product-description': {
-                        'type': 'string'
-                    },
-                    'additionalText': {
-                        'type': 'string'
-                    }                      
-                },
-                'required': ['id','category','name','isAvailable','product-description','additionalText']
-            };
-            pm.response.to.have.jsonSchema(schema);
-        });   
-        ```
+                    'required': ['id','category','name','isAvailable','product-description','additionalText']
+                };
+                pm.response.to.have.jsonSchema(schema);
+            });   
+            ```
 
-    === "Task 3: Strict Schema Validation"
-        **Requirement**: Prevent additional properties in response
+        === "Task 3: Strict Schema Validation"
+            **Requirement**: Prevent additional properties in response
 
-        **Solution**:
-        ```javascript
-        // Add to schema object
-        'additionalProperties': false
-        ```
+            **Solution**:
+            ```javascript
+            // Add to schema object
+            'additionalProperties': false
+            ```
 
-        **Key Concepts**:
+            **Key Concepts**:
 
-        - JSON Schema definition and validation
-        - Data type specification
-        - Required field enforcement
-        - Additional property restrictions
+            - JSON Schema definition and validation
+            - Data type specification
+            - Required field enforcement
+            - Additional property restrictions
 
 ### Assignment #5: CI/CD Integration with GitHub Actions
 
@@ -334,163 +334,164 @@ postman-api-automation/
     1. **GitHub Setup**: Create public repository with Actions workflow
     2. **Automation**: Ensure successful collection execution
 
-!!! abstract "Assignment"
-    === "Task 1: GitHub Actions Configuration"
-        **Requirement**: Set up automated workflow for Postman collection execution
+    !!! abstract "Assignment"
+        === "Task 1: GitHub Actions Configuration"
+            **Requirement**: Set up automated workflow for Postman collection execution
 
-        **Solution**:
-        ```yaml
-        # .github/workflows/postman.yml
-        name: Automated API tests using Postman CLI
+            **Solution**:
+            ```yaml
+            # .github/workflows/postman.yml
+            name: Automated API tests using Postman CLI
 
-        on: push
+            on: push
 
-        jobs:
-        automated-api-tests:
-            runs-on: windows-latest
-            steps:
-            - uses: actions/checkout@v4
-            - name: Install Postman CLI
-            run: |
-                powershell.exe -NoProfile -InputFormat None -ExecutionPolicy AllSigned -Command "[System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://dl-cli.pstmn.io/install/win64.ps1'))"
-            - name: Login to Postman CLI
-            run: postman login --with-api-key ${{ secrets.POSTMAN_API_KEY }}
-            - name: Run API tests
-            run: |
-                postman collection run "36196810-3064f937-caa2-4035-bcda-b75336216fc5"
-        ```
+            jobs:
+            automated-api-tests:
+                runs-on: windows-latest
+                steps:
+                - uses: actions/checkout@v4
+                - name: Install Postman CLI
+                run: |
+                    powershell.exe -NoProfile -InputFormat None -ExecutionPolicy AllSigned -Command "[System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://dl-cli.pstmn.io/install/win64.ps1'))"
+                - name: Login to Postman CLI
+                run: postman login --with-api-key ${{ secrets.POSTMAN_API_KEY }}
+                - name: Run API tests
+                run: |
+                    postman collection run "36196810-3064f937-caa2-4035-bcda-b75336216fc5"
+            ```
 
-    === "Task 2: Successful Test Execution"
-        **Requirement**: Verify automated test execution works correctly
+        === "Task 2: Successful Test Execution"
+            **Requirement**: Verify automated test execution works correctly
 
-        **Solution Output**:
-        ```
-        Running your collection...
-        postman
+            **Solution Output**:
+            ```
+            Running your collection...
+            postman
 
-        Valentino Artisan Coffee House API
+            Valentino Artisan Coffee House API
 
-        □ status
-        └ Get API status
-        GET https://valentinos-coffee.herokuapp.com/status [200 OK, 783B, 329ms]
-        √  Status code is 200
-        √  Headers Test
+            □ status
+            └ Get API status
+            GET https://valentinos-coffee.herokuapp.com/status [200 OK, 783B, 329ms]
+            √  Status code is 200
+            √  Headers Test
 
-        □ products
-        └ Get all products
-        GET https://valentinos-coffee.herokuapp.com/products?category=pastry [200 OK, 1.31kB, 77ms]
-        √  Status code test: 200
+            □ products
+            └ Get all products
+            GET https://valentinos-coffee.herokuapp.com/products?category=pastry [200 OK, 1.31kB, 77ms]
+            √  Status code test: 200
 
-        └ Get single product
-        GET https://valentinos-coffee.herokuapp.com/products/1001 [200 OK, 954B, 75ms]
-        √  Status code test: 200
-        √  Response body is JSON
-        √  JSON Schema are valid
+            └ Get single product
+            GET https://valentinos-coffee.herokuapp.com/products/1001 [200 OK, 954B, 75ms]
+            √  Status code test: 200
+            √  Response body is JSON
+            √  JSON Schema are valid
 
-        □ clients
-        └ Register a new client
-        POST https://valentinos-coffee.herokuapp.com/clients [200 OK, 809B, 78ms]
-        √  Status code test: 200
-        √  Response body is JSON
+            □ clients
+            └ Register a new client
+            POST https://valentinos-coffee.herokuapp.com/clients [200 OK, 809B, 78ms]
+            √  Status code test: 200
+            √  Response body is JSON
 
-        □ orders
-        └ Create a new order
-        POST https://valentinos-coffee.herokuapp.com/orders [201 Created, 937B, 76ms]
-        √  Status code test: 201
-        √  Response body is JSON
-        √  Customer name
-        √  Schema is valid
+            □ orders
+            └ Create a new order
+            POST https://valentinos-coffee.herokuapp.com/orders [201 Created, 937B, 76ms]
+            √  Status code test: 201
+            √  Response body is JSON
+            √  Customer name
+            √  Schema is valid
 
-        └ Get all orders
-        GET https://valentinos-coffee.herokuapp.com/orders [200 OK, 847B, 74ms]
-        √  Status code test: 200
+            └ Get all orders
+            GET https://valentinos-coffee.herokuapp.com/orders [200 OK, 847B, 74ms]
+            √  Status code test: 200
 
-        └ Get an order by ID
-        GET https://valentinos-coffee.herokuapp.com/orders/AF_86H4A1R [200 OK, 932B, 74ms]
-        √  Status code test: 200
-        √  Response body is JSON
-        √  Get Property ID on JSON
-        √  Get Property products on JSON
+            └ Get an order by ID
+            GET https://valentinos-coffee.herokuapp.com/orders/AF_86H4A1R [200 OK, 932B, 74ms]
+            √  Status code test: 200
+            √  Response body is JSON
+            √  Get Property ID on JSON
+            √  Get Property products on JSON
 
-        ┌───────────────────────────┬────────────────────┬───────────────────┐
-        │                           │           executed │            failed │
-        ├───────────────────────────┼────────────────────┼───────────────────┤
-        │                iterations │                  1 │                 0 │
-        ├───────────────────────────┼────────────────────┼───────────────────┤
-        │                  requests │                  7 │                 0 │
-        ├───────────────────────────┼────────────────────┼───────────────────┤
-        │              test-scripts │                  7 │                 0 │
-        ├───────────────────────────┼────────────────────┼───────────────────┤
-        │        prerequest-scripts │                  3 │                 0 │
-        ├───────────────────────────┼────────────────────┼───────────────────┤
-        │                assertions │                 17 │                 0 │
-        ├───────────────────────────┴────────────────────┴───────────────────┤
-        │ total run duration: 1431ms                                         │
-        ├────────────────────────────────────────────────────────────────────┤
-        │ total data received: 1.28kB (approx)                               │
-        ├────────────────────────────────────────────────────────────────────┤
-        │ average response time: 111ms [min: 74ms, max: 329ms, s.d.: 88ms]   │
-        └────────────────────────────────────────────────────────────────────┘
-        ```
+            ┌───────────────────────────┬────────────────────┬───────────────────┐
+            │                           │           executed │            failed │
+            ├───────────────────────────┼────────────────────┼───────────────────┤
+            │                iterations │                  1 │                 0 │
+            ├───────────────────────────┼────────────────────┼───────────────────┤
+            │                  requests │                  7 │                 0 │
+            ├───────────────────────────┼────────────────────┼───────────────────┤
+            │              test-scripts │                  7 │                 0 │
+            ├───────────────────────────┼────────────────────┼───────────────────┤
+            │        prerequest-scripts │                  3 │                 0 │
+            ├───────────────────────────┼────────────────────┼───────────────────┤
+            │                assertions │                 17 │                 0 │
+            ├───────────────────────────┴────────────────────┴───────────────────┤
+            │ total run duration: 1431ms                                         │
+            ├────────────────────────────────────────────────────────────────────┤
+            │ total data received: 1.28kB (approx)                               │
+            ├────────────────────────────────────────────────────────────────────┤
+            │ average response time: 111ms [min: 74ms, max: 329ms, s.d.: 88ms]   │
+            └────────────────────────────────────────────────────────────────────┘
+            ```
 
-        **Key Concepts**:
+            **Key Concepts**:
 
-        - GitHub Actions workflow configuration
-        - Postman CLI integration
-        - Automated test execution
-        - CI/CD pipeline implementation
+            - GitHub Actions workflow configuration
+            - Postman CLI integration
+            - Automated test execution
+            - CI/CD pipeline implementation
 
 ## 🔧 Technical Implementation Details
 
 1. Test Patterns and Best Practices
 
-    - Status Code Validation
-    ```javascript
-    // Method 1: Direct status validation
-    pm.test("Status code is 200", function () {
-        pm.response.to.have.status(200);
-    });
+    !!! abstract ""
+        === "Status Code Validation"
+            ```javascript
+            // Method 1: Direct status validation
+            pm.test("Status code is 200", function () {
+                pm.response.to.have.status(200);
+            });
 
-    // Method 2: Using pm.expect()
-    pm.test("Status code test: 200", function () {
-        pm.expect(pm.response.code).to.eql(200);
-    });
-    ```
+            // Method 2: Using pm.expect()
+            pm.test("Status code test: 200", function () {
+                pm.expect(pm.response.code).to.eql(200);
+            });
+            ```
 
-    - Response Body Parsing
-    ```javascript
-    // Parse JSON response
-    const response = pm.response.json();
+        === "Response Body Parsing"
+            ```javascript
+            // Parse JSON response
+            const response = pm.response.json();
 
-    // Access properties
-    console.log(response.id);
-    console.log(response['product-description']);
-    ```
+            // Access properties
+            console.log(response.id);
+            console.log(response['product-description']);
+            ```
 
-    - Variable Management
-    ```javascript
-    // Set collection variable
-    pm.collectionVariables.set('orderID', response.id);
+        === "Variable Management"
+            ```javascript
+            // Set collection variable
+            pm.collectionVariables.set('orderID', response.id);
 
-    // Get collection variable
-    const orderId = pm.collectionVariables.get('orderID');
-    ```
+            // Get collection variable
+            const orderId = pm.collectionVariables.get('orderID');
+            ```
 
-    - Property Validation
-    ```javascript
-    // Check property existence
-    pm.expect(response).to.have.property('id');
+        === "Property Validation"
+            ```javascript
+            // Check property existence
+            pm.expect(response).to.have.property('id');
 
-    // Validate data types
-    pm.expect(response.products).to.be.a('array');
-    pm.expect(response.id).to.be.a('number');
-    ```
+            // Validate data types
+            pm.expect(response.products).to.be.a('array');
+            pm.expect(response.id).to.be.a('number');
+            ```
 
-    - Pattern Matching
-    ```javascript
-    // Regular expression validation
-    pm.expect(response.id).to.match(/^[A-Z0-9]{9}$/);
-    ```
+        === "Pattern Matching"
+            ```javascript
+            // Regular expression validation
+            pm.expect(response.id).to.match(/^[A-Z0-9]{9}$/);
+            ```
 
 2. JSON Schema Validation Pattern
 

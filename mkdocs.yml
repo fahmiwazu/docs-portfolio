@@ -101,8 +101,8 @@ nav:
         - American-British Translator: projects/assignment/qualityAssurance/american-britishTranslator.md
     - Postman :  
       - API Test Automation: projects/assignment/postman/postmanAutomation.md
-  - Data Structure & Algorithm :
-    - Web Quiz Automation: projects/dataStructureAlgorithm/webQuiz.md
+#  - Data Structure & Algorithm :
+#    - Web Quiz Automation: projects/dataStructureAlgorithm/webQuiz.md
 #    - Flexible FizzBuzz Concat: projects/dataStructureAlgorithm/flexibleFizzBuzz.md
 #    - Fibonacci Indexes Finder: projects/dataStructureAlgorithm/fibonacciIndex.md
 #    - Longest Palindrome : projects/dataStructureAlgorithm/longestPalindrome.md
