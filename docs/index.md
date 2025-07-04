@@ -22,38 +22,55 @@ For those interested in exploring Fahmi's project documentation across categorie
 
     ---
     - [ Relational Database](projects/assignment/relationalDatabase/celestialDB.md)
-    - [ Postman API Test Automation](projects/assignment/postman/postmanAutomation)
+    - [ Quality Assurance](projects/assignment/qualityAssurance/american-britishTranslator.md)
+    - [ Postman API Test Automation](projects/assignment/postman/postmanAutomation.md)
 
-- [:material-account: __Data Structure and Algorithm__](projects/dataStructureAlgorithm/webQuiz) (1)
-    { .annotate }
+[//]: # (- [:material-account: __Data Structure and Algorithm__]&#40;projects/dataStructureAlgorithm/webQuiz.md&#41; &#40;1&#41;)
 
-    1. For those curious about Fahmi's Data Structure and Algorithm project focused on enhancing skills acquired from online courses and assignment certification programs, detailed information and insights are available here.
+[//]: # (    { .annotate })
 
-    ---
+[//]: # ()
+[//]: # (    1. For those curious about Fahmi's Data Structure and Algorithm project focused on enhancing skills acquired from online courses and assignment certification programs, detailed information and insights are available here.)
 
-    - [Web Quiz Automation](projects/dataStructureAlgorithm/webQuiz.md)
-    - [Flexible FizzBuzz Concat](projects/dataStructureAlgorithm/flexibleFizzBuzz.md)
-    - [Fibonacci Indexes](projects/dataStructureAlgorithm/fibonacciIndex.md)
-    - [Longest Palindrome](projects/dataStructureAlgorithm/longestPalindrome.md)
+[//]: # ()
+[//]: # (    ---)
 
-- [:material-professional-hexagon: __Sample of Work__](projects/workSample/javaAutomation.md) (1)
-    { .annotate }
+[//]: # ()
+[//]: # (    - [Web Quiz Automation]&#40;projects/dataStructureAlgorithm/webQuiz.md&#41;)
 
-    1. Explore Fahmi's notable contributions to automation tools and script automation, specifically designed to enhance the QA process throughout his professional career, right here for detailed insights.
+[//]: # (    - [Flexible FizzBuzz Concat]&#40;projects/dataStructureAlgorithm/flexibleFizzBuzz.md&#41;)
 
-    ---
+[//]: # (    - [Fibonacci Indexes]&#40;projects/dataStructureAlgorithm/fibonacciIndex.md&#41;)
 
-    - [Java Test Automation](projects/workSample/javaAutomation.md)
-    - [Python Test Automation](projects/workSample/pythonAutomation.md) 
+[//]: # (    - [Longest Palindrome]&#40;projects/dataStructureAlgorithm/longestPalindrome.md&#41;)
 
- - [:material-school: __Academic Research__](projects/academic/chapterOne.md) (1)
-    { .annotate }
+[//]: # (- [:material-professional-hexagon: __Sample of Work__]&#40;projects/workSample/javaAutomation.md&#41; &#40;1&#41;)
 
-    1. Explore Fahmi's academic project encompassing embedded systems, digital signal processing, machine learning, and artificial neural networks, which culminated in his Bachelor of Applied Engineering degree. Detailed information on this innovative project is available here.
+[//]: # (    { .annotate })
 
-    ---
+[//]: # ()
+[//]: # (    1. Explore Fahmi's notable contributions to automation tools and script automation, specifically designed to enhance the QA process throughout his professional career, right here for detailed insights.)
 
-    - [Smart Metering Systems](projects/academic/chapterOne.md) 
+[//]: # ()
+[//]: # (    ---)
+
+[//]: # ()
+[//]: # (    - [Java Test Automation]&#40;projects/workSample/javaAutomation.md&#41;)
+
+[//]: # (    - [Python Test Automation]&#40;projects/workSample/pythonAutomation.md&#41; )
+
+[//]: # ( - [:material-school: __Academic Research__]&#40;projects/academic/chapterOne.md&#41; &#40;1&#41;)
+
+[//]: # (    { .annotate })
+
+[//]: # ()
+[//]: # (    1. Explore Fahmi's academic project encompassing embedded systems, digital signal processing, machine learning, and artificial neural networks, which culminated in his Bachelor of Applied Engineering degree. Detailed information on this innovative project is available here.)
+
+[//]: # ()
+[//]: # (    ---)
+
+[//]: # ()
+[//]: # (    - [Smart Metering Systems]&#40;projects/academic/chapterOne.md&#41; )
 
     
 </div>
