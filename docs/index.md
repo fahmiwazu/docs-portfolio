@@ -45,20 +45,17 @@ For those interested in exploring Fahmi's project documentation across categorie
 
 [//]: # (    - [Longest Palindrome]&#40;projects/dataStructureAlgorithm/longestPalindrome.md&#41;)
 
-[//]: # (- [:material-professional-hexagon: __Sample of Work__]&#40;projects/workSample/javaAutomation.md&#41; &#40;1&#41;)
+- [:material-professional-hexagon: __Sample of Work__](projects/workSample/api-testing/newman-automation.md) (1)
+    { .annotate }
 
-[//]: # (    { .annotate })
+    1. Explore Fahmi's notable contributions to automation tools and script automation, specifically designed to enhance the QA process throughout his professional career, right here for detailed insights.
 
-[//]: # ()
-[//]: # (    1. Explore Fahmi's notable contributions to automation tools and script automation, specifically designed to enhance the QA process throughout his professional career, right here for detailed insights.)
+     ---
+    - [Newman Automation](projects/workSample/api-testing/newman-automation.md)
+    - [Java Automation Framework](projects/workSample/frameworks/java-automation.md)
+    - [Simple CRUD Apps](projects/workSample/backend-api/simple-crud-apps.md) 
+    - [Project Documentation](projects/workSample/documentation/docs-portfolio.md)
 
-[//]: # ()
-[//]: # (    ---)
-
-[//]: # ()
-[//]: # (    - [Java Test Automation]&#40;projects/workSample/javaAutomation.md&#41;)
-
-[//]: # (    - [Python Test Automation]&#40;projects/workSample/pythonAutomation.md&#41; )
 
 [//]: # ( - [:material-school: __Academic Research__]&#40;projects/academic/chapterOne.md&#41; &#40;1&#41;)
 

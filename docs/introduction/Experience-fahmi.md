@@ -27,6 +27,16 @@ NICPAY Indonesia <br><small>(Aug 2020 - now)</small>
         ![Screenshot](img/Experience/NICEPAYCUP 2.0.jpg){ width="750" }
         <figcaption>NICEPAY Badminton Cup 2024</figcaption>
         </figure>
+    === "Bonding IT Planning"
+        <figure markdown="span">
+        ![Screenshot](img/Experience/Bonding IT Planning 2025.jpg){ width="750" }
+        <figcaption>Bonding Product Development and Quality Assurance Team</figcaption>
+        </figure>
+    === "Iftar Ramadhan 2025"
+        <figure markdown="span">
+        ![Screenshot](img/Experience/Iftar with QA and RND Team.jpg){ width="750" }
+        <figcaption>Iftar with QA & R&D Team, Ramadhan 2025</figcaption>
+        </figure>
 
 ### Test Engineer  
 EDMI Indonesia <br><small>(Mar 2020 - Apr 2024) · 4 yrs 2 mos</small>
