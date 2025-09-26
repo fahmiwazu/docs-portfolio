@@ -98,11 +98,11 @@ The `docs/stylesheet/extra.css` file contains:
 The repository uses GitHub Actions for automatic deployment:
 
 - **Trigger**: Push to `main` or `master` branch
-- **Process**:
-    1. Checkout code
-    2. Setup Python environment
-    3. Install dependencies
-    4. Build and deploy to GitHub Pages
+- **Process**: 
+  1. Checkout code
+  2. Setup Python environment
+  3. Install dependencies
+  4. Build and deploy to GitHub Pages
 - **Caching**: Weekly cache refresh for faster builds
 
 ### Manual Deployment
@@ -122,10 +122,10 @@ mkdocs gh-deploy --force
 
 ### Projects
 - **Assignment Projects**: freeCodeCamp certifications
-    - Relational Database projects
-    - Backend Development & APIs
-    - Quality Assurance projects
-    - Postman API Test Automation
+  - Relational Database projects
+  - Backend Development & APIs
+  - Quality Assurance projects
+  - Postman API Test Automation
 - **Academic Research**: Bachelor's degree research work
 - **Work Samples**: Professional automation tools and scripts
 

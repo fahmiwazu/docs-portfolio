@@ -4,7 +4,7 @@ site_name: Fahmi's Project Library
 site_description : Project tech stacks and description detailed by fahmi wahyu wiradika 
 
 copyright: |
-  Copyright &copy; 2024 <a href="https://github.com/fahmiwazu/docs-portfolio?tab=MIT-1-ov-file#" target="_blank" rel="noopener"> Fahmi Wahyu Wiradika</a>
+  Copyright &copy; 2025 <a href="https://github.com/fahmiwazu/docs-portfolio?tab=MIT-1-ov-file#" target="_blank" rel="noopener"> Fahmi Wahyu Wiradika</a>
 
 ### Site Settings ###
 #theme : readthedocs --- Optional to use if we don't like to use material theme
@@ -106,9 +106,16 @@ nav:
 #    - Flexible FizzBuzz Concat: projects/dataStructureAlgorithm/flexibleFizzBuzz.md
 #    - Fibonacci Indexes Finder: projects/dataStructureAlgorithm/fibonacciIndex.md
 #    - Longest Palindrome : projects/dataStructureAlgorithm/longestPalindrome.md
-#  - Sample of Work:
-#    - Java Automation Test: projects/workSample/javaAutomation.md
-#    - Python Automation Test: projects/workSample/pythonAutomation.md
+  - Sample of Work:
+    - API Testing:
+      - Newman Automation: projects/workSample/api-testing/newman-automation.md
+    - Back-End Development and APIs:
+      - Simple CRUD Apps: projects/workSample/backend-api/simple-crud-apps.md
+    - Documentation:
+      - Fahmi's Project Library: projects/workSample/documentation/docs-portfolio.md
+    - Framework:
+      - Java Automation Test: projects/workSample/frameworks/java-automation.md
+    # - Python Automation Test: projects/workSample/pythonAutomation.md
 #  - Academic Research:
 #    - Bachelor Research:
 #      - Smart Metering Systems:
