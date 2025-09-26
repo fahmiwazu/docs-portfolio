@@ -64,7 +64,7 @@ A comprehensive online portfolio showcasing projects, certifications, and profes
 │   ├── introduction/         # About, experience, certifications
 │   ├── projects/             # Project documentation
 │   │   ├── assignment/       # freeCodeCamp projects
-│   │   ├── academic/         # Research projects
+│   │   ├── academic/         # Research projects (coming soon)
 │   │   └── workSample/       # Professional work samples
 │   └── stylesheet/
 │       └── extra.css         # Custom styling
