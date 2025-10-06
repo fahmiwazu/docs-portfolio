@@ -106,15 +106,16 @@ nav:
 #    - Flexible FizzBuzz Concat: projects/dataStructureAlgorithm/flexibleFizzBuzz.md
 #    - Fibonacci Indexes Finder: projects/dataStructureAlgorithm/fibonacciIndex.md
 #    - Longest Palindrome : projects/dataStructureAlgorithm/longestPalindrome.md
-  - Sample of Work:
+  - Professional Project:
     - API Testing:
-      - Newman Automation: projects/workSample/api-testing/newman-automation.md
-    - Back-End Development and APIs:
-      - Simple CRUD Apps: projects/workSample/backend-api/simple-crud-apps.md
+      - Newman Automation: projects/professional/api-testing/newman-automation.md
+      - JMeter Automation: projects/professional/api-testing/jmeter-automation.md
+    - Web Apps:
+      - Simple CRUD Apps: projects/professional/web-apps/simple-crud-apps.md
     - Documentation:
-      - Fahmi's Project Library: projects/workSample/documentation/docs-portfolio.md
+      - Fahmi's Project Library: projects/professional/documentation/docs-portfolio.md
     - Framework:
-      - Java Automation Test: projects/workSample/frameworks/java-automation.md
+      - Java Automation Test: projects/professional/frameworks/java-automation.md
     # - Python Automation Test: projects/workSample/pythonAutomation.md
 #  - Academic Research:
 #    - Bachelor Research:
